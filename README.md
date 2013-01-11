@@ -172,6 +172,3 @@ Datos límpios: https://github.com/hacktivistas/bankiamap/blob/master/data/banki
 
 Web de ejemplo: http://hacktivistas.github.com/bankiamap/
 
-P.S: Este podría ser un ejemplo extremo de lo que puede suponer transmitir el archivo en CSV en lugar de en JSON.
-Con 35231 registros totales que extraemos (la gran mayoría repetidos o correspondientes a cajeros) el archivo bankia.raw.csv
-ocupa 2,9 Mb; mientras que el JSON ocupa 15Mb. Por ello este último fichero no se incluye en el repositorio.
