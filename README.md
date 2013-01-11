@@ -166,11 +166,11 @@ grep ";oficina;" bankia.raw.csv | awk -F ";" '{print $6";"$1";"$2";"$3";"$7";"$8
 
 Y con el plugin Leaflet.geoCSV podemos cargar los datos una vez limpios directamente.
 
-Datos en bruto: http://joker-x.github.com/Leaflet.geoCSV/example/bankia/bankia.raw.csv
+Datos en bruto: https://github.com/hacktivistas/bankiamap/blob/master/data/bankia.raw.csv
 
-Datos límpios: http://joker-x.github.com/Leaflet.geoCSV/example/bankia/bankias.csv
+Datos límpios: https://github.com/hacktivistas/bankiamap/blob/master/data/bankias.csv
 
-Web de ejemplo: http://joker-x.github.com/Leaflet.geoCSV/example/bankia/
+Web de ejemplo: http://hacktivistas.github.com/bankiamap/
 
 P.S: Este podría ser un ejemplo extremo de lo que puede suponer transmitir el archivo en CSV en lugar de en JSON.
 Con 35231 registros totales que extraemos (la gran mayoría repetidos o correspondientes a cajeros) el archivo bankia.raw.csv
