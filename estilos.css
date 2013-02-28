@@ -91,18 +91,7 @@
 .marker-cluster{background-clip:padding-box;border-radius:20px}
 .marker-cluster div{width:30px;height:30px;margin-left:5px;margin-top:5px;text-align:center;border-radius:15px;font:12px "Helvetica Neue",Arial,Helvetica,sans-serif}
 .marker-cluster span{line-height:30px}
-
-html{margin:0;padding:0;width:100%;height:100%;font-family:Arial,sans-serif;font-color:#38383}
-#mapa{margin:0;padding:0;width:100%;height:100%;font-family:Arial,sans-serif;font-color:#38383}
-body {margin: 0 auto;padding: 0;text-align: center;font: 18px Arial, sans-serif;}
-#cabecera {widht: 100%;background: #433128;}
-#logo {margin-left: -90px;}
-#lista {padding: 0;}
-#lista li {display: inline;}
-.opcionmarcada, .opcion:hover {color: #35549f;background: #e6eaf2;}
-#contenido {width: 100%;background:	#e6eaf2;}
-
-
+html,body,#mapa{margin:0;padding:0;width:100%;height:100%;font-family:Arial,sans-serif;font-color:#38383}
 #botonera{position:fixed;top:10px;left:50px;z-index:2}
 #cargando{position:fixed;top:0;left:0;width:100%;height:100%;background-color:#666;color:#fff;font-size:2em;padding:20% 40%;z-index:10}
 .boton{border:1px solid #96d1f8;background:#65a9d7;background:-webkit-gradient(linear,left top,left bottom,from(#3e779d),to(#65a9d7));background:-webkit-linear-gradient(top,#3e779d,#65a9d7);background:-moz-linear-gradient(top,#3e779d,#65a9d7);background:-ms-linear-gradient(top,#3e779d,#65a9d7);background:-o-linear-gradient(top,#3e779d,#65a9d7);padding:12px 24px;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;-webkit-box-shadow:rgba(0,0,0,1) 0 1px 0;-moz-box-shadow:rgba(0,0,0,1) 0 1px 0;box-shadow:rgba(0,0,0,1) 0 1px 0;text-shadow:rgba(0,0,0,.4) 0 1px 0;color:#fff!important;font-size:17px;text-decoration:none;vertical-align:middle}
