@@ -23,32 +23,46 @@
 				<a href="index.php"><img src="images/TAB_logoWeb.png"></a>
 			</div>
 			<div id="cabecera2">
-				Operación Toque - Regístrate y participa - Sí se puede - El rescate - Accede a tu foro
+				<table width="100%">
+				<tr>
+					<td width="15%">&nbsp;</td>
+					<td width="14%"><span id="textc21">Operación Toque</span></td>
+					<td width="14%"><span id="textc21">Regístrate y participa</span></td>
+					<td width="14%"><span id="textc21">Sí se puede</span></td>
+					<td width="14%"><span id="textc21">El rescate</span></td>
+					<td width="14%"><span id="textc21">Accede a tu foro</span></td>
+					<td width="15%">&nbsp;</td>
+				</tr>
+				</table>
 			</div>
 			<div id="cabecera3">
 				<p>
-					Registrate y participa
+					<span id="textc30">Registrate y participa</span>
 				</p>
 
 				<table width="100%">
 					<tr>
-						<td width="20%"><img src="images/icon_geolocaliza.png"></td>
+						<td width="6%">&nbsp;</td>
+						<td width="17%"><img src="images/icon_geolocaliza.png"></td>
 						<td width="5%"><img src="images/flecha_proceso.png"></td>
-                                                <td width="20%"><img src="images/icon_oficina.png"></td>
+                                                <td width="17%"><img src="images/icon_oficina.png"></td>
                                                 <td width="5%"><img src="images/flecha_proceso.png"></td>
-                                                <td width="20%"><img src="images/icon_acceso.png"></td>
+                                                <td width="17%"><img src="images/icon_acceso.png"></td>
                                             	<td width="5%"><img src="images/flecha_proceso.png"></td>
-                                                <td width="20%"><img src="images/icon_superapp.png"></td>
+                                                <td width="17%"><img src="images/icon_superapp.png"></td>
+                                                <td width="6%">&nbsp;</td>
 					</tr>
                                 	<tr>
-                                                <td><span id="textc31">1. </span><span id="textc32">Pulsa en buscar y acepta geolocalizarte</span></td>
+						<td></td>
+                                                <td><span id="textc31">1 </span><span id="textc32">Pulsa en buscar y acepta geolocalizarte</span></td>
                                                 <td></td>
-                                                <td><span id="textc31">2. </span><span id="textc32">Escoge oficina</span></td>
+                                                <td><span id="textc31">2 </span><span id="textc32">Escoge oficina</span></td>
                                                 <td></td>
-                                                <td><span id="textc31">3. </span><span id="textc32">Elige cómo entrar</span></td>
+                                                <td><span id="textc31">3 </span><span id="textc32">Elige cómo entrar</span></td>
                                                 <td></td>
-                                                <td><span id="textc31">4. </span><span id="textc32">Acepta la App (sólo facebook)</span></td>
-                                        </tr>
+                                                <td><span id="textc31">4 </span><span id="textc32">Acepta la App (sólo facebook)</span></td>
+                                        	<td></td>
+					</tr>
 
 				</table>
 			</div>
@@ -60,7 +74,7 @@
 			</div>
 
 			<div id="cargando">Cargando...</div>
-			<div id="botonera"><button id="localizame" class="boton">Bankias cercanos</button></div>
+			<div id="botonera"><button id="localizame" class="boton">Busca tu oficina</button></div>
 			
 			<script type="text/javascript" src="bankia.js"></script>
 

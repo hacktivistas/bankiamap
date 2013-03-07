@@ -1,3 +1,32 @@
+@font-face {
+	font-family: "UbuntuR";
+	font-style: normal;
+	font-weight: normal;
+	src: local("?"), url("fonts/Ubuntu-R.woff") format("woff"), url("fonts/Ubuntu-R.ttf") format("truetype");
+}
+
+@font-face {
+        font-family: "UbuntuRI";
+        font-style: italic;
+        font-weight: italic;
+        src: local("?"), url("fonts/Ubuntu-RI.woff") format("woff"), url("fonts/Ubuntu-RI.ttf") format("truetype");
+}
+
+@font-face {
+        font-family: "UbuntuB";
+        font-style: normal;
+        font-weight: normal;
+        src: local("?"), url("fonts/Ubuntu-B.woff") format("woff"), url("fonts/Ubuntu-B.ttf") format("truetype");
+}
+ 
+@font-face {
+        font-family: "UbuntuBI";
+        font-style: italic;
+        font-weight: italic;
+        src: local("?"), url("fonts/Ubuntu-BI.woff") format("woff"), url("fonts/Ubuntu-BI.ttf") format("truetype");
+}
+
+
 .leaflet-map-pane,.leaflet-tile,.leaflet-marker-icon,.leaflet-marker-shadow,.leaflet-tile-pane,.leaflet-overlay-pane,.leaflet-shadow-pane,.leaflet-marker-pane,.leaflet-popup-pane,.leaflet-overlay-pane svg,.leaflet-zoom-box,.leaflet-image-layer,.leaflet-layer{position:absolute;left:0;top:0}
 .leaflet-container{overflow:hidden;-ms-touch-action:none}
 .leaflet-tile,.leaflet-marker-icon,.leaflet-marker-shadow{-webkit-user-select:none;-moz-user-select:none;user-select:none}
@@ -102,11 +131,14 @@ body{background:#E6EAF2;padding:0;margin:0 auto; text-align:center;font-family:A
 a, a:active, a:focus, a:visited {text-decoration:none;outline: none}
 
 #cabecera{padding:0;background:#433128;width:100%;}
-#cabecera2{padding:0;background:#433128;width:100%;}
+#cabecera2{padding:0;background:#433128;width:100%;height:35px}
 #cabecera3{padding:0;background:#E6EAF2;width:100%;}
 
-#textc31{color:#00FF00;text-align:center} 
-#textc32{color:#FF0000;text-align:center}  
+#textc21{color:#FFFFFF;font-family: UbuntuR;font-size:15px}
+
+#textc30{color:#1c3876;font-family: UbuntuB;font-size:34px}
+#textc31{color:#d0d7e7;text-align:center;font-family: UbuntuB;font-size:45px} 
+#textc32{color:#1c3876;text-align:center;font-family: UbuntuR;font-size:15px}  
 
 #botonera{position:fixed;top:10px;left:50px;z-index:2}
 
@@ -114,3 +146,4 @@ a, a:active, a:focus, a:visited {text-decoration:none;outline: none}
 .boton{border:1px solid #96d1f8;background:#65a9d7;background:-webkit-gradient(linear,left top,left bottom,from(#3e779d),to(#65a9d7));background:-webkit-linear-gradient(top,#3e779d,#65a9d7);background:-moz-linear-gradient(top,#3e779d,#65a9d7);background:-ms-linear-gradient(top,#3e779d,#65a9d7);background:-o-linear-gradient(top,#3e779d,#65a9d7);padding:12px 24px;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;-webkit-box-shadow:rgba(0,0,0,1) 0 1px 0;-moz-box-shadow:rgba(0,0,0,1) 0 1px 0;box-shadow:rgba(0,0,0,1) 0 1px 0;text-shadow:rgba(0,0,0,.4) 0 1px 0;color:#fff!important;font-size:17px;text-decoration:none;vertical-align:middle}
 .boton:hover{border-top-color:#28597a;background:#28597a;color:#ccc}
 .boton:active{border-top-color:#1b435e;background:#1b435e}
+
