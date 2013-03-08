@@ -82,25 +82,20 @@
 						<td align="left" valign="top">Todo comienza por el mapa</td>
 						<td></td>
 					</tr>
-                                        <tr>
-                                                <td valign="bottom"><img src="images/icon_ojo.png"></td>
-                                                <td valign="top">
+					<tr>
+						<td valign="bottom"><img src="images/icon_ojo.png"></td>
+						<td valign="top">
 							<p><b>También puedes navegar por el mapa.</b> Si haces doble click, irás aproximándote al lugar donde quieras buscar tu oficina.</b>
-
-							</p><b>Cuando seleccionas una oficina</b> y te registras en ella, entras a formar parte de un grupo de acción, junto con las demás personas que la han escogido.</p>
-
+							<p><b>Cuando seleccionas una oficina</b> y te registras en ella, entras a formar parte de un grupo de acción, junto con las demás personas que la han escogido.</p>
 							<p><b>Cada grupo se comunica</b> a través de su foro. Sólo puedes pertenecer a un foro a la vez. De esta manera todas sabemos cuántas somos y podemos distribuir mejor las tareas.</p>
-
 							<p><b>Los grupos pueden ver</b> cómo lo están haciendo los demás y aprender de ellos, pero sólo participan en el foro de su sucursal.<p>
-
 							<p>Por supuesto el teléfono y los bares siguen existiendo ;-)</p>
-
 						</td>
-                                                <td valign="top"><img src="images/swarm_foros.png"></td>
-                                        </tr> 
+						<td valign="top"><img src="images/swarm_foros.png"></td>
+					</tr> 
 				</table>
-
 			</div>
+			
 			<div id="cargando">Cargando...</div>
 			<div id="botonera"><button id="localizame" class="boton">Busca tu oficina</button></div>
 			
