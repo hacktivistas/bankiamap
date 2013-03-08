@@ -37,7 +37,7 @@ a, a:active, a:focus, a:visited {text-decoration:none;outline: none}
 #cabecera{padding:0;background:#433128;width:100%;}
 #cabecera2{padding:0;background:#433128;width:100%;height:35px}
 #cabecera3{padding:0;background:#E6EAF2;width:100%;}
-
+#presentacion{padding:0;background:#E6EAF2;width:100%;}
 
 #contenedorcuerpo {height:440px; width:100%;background:#FFF}
 #cuerpo{margin-left:auto;margin-right:auto;height:400px; width:97%; padding:20px 0px; background:#FFF}
