@@ -15,7 +15,7 @@
 		<link rel="stylesheet" href="estilos.css" />
 		<!--[if lte IE 8]> <link rel="stylesheet" href="estilos.ie.css" />  <![endif]-->  
 		<script type="text/javascript" src="lib/yepnope/yepnope.js"></script>
-		<title>A TOMAR POR EL CULO. ANDO CURRANDO EN LOCAL - GILIPOLLASBankia</title>
+		<title>Bankia</title>
 	</head>
 	<body>
 

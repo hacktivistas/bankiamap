@@ -122,7 +122,7 @@
 .marker-cluster span{line-height:30px}
 
 
-body{background:#E6EAF2;padding:0;margin:0 auto; font-family:Arial,sans-serif;color:#38383;min-height: 960px}
+body{background:#E6EAF2;padding:0;margin:0 auto;text-align:center;font-family:Arial,sans-serif;color:#38383;min-height: 960px}
 
 #contenedormapa1 {height:440px; width:100%;background:#FFF}
 #contenedormapa2 {margin-left:auto;margin-right:auto;height:400px; width:97%; padding:20px 0px; background:#FFF}
