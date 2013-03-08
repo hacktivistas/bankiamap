@@ -35,15 +35,15 @@
 			<div id="presentacion">
 				<table width="100%" border="0">
 					<tr>
-						<td colspan="2" width="75%"><span id="textc30">¡Dale un toque a bankia!</span></td>
+						<td colspan="2" width="75%" align="left"><p id="textc30">&nbsp;¡Dale un toque a bankia!</p></td>
 						<td rowspan="3" width="25%">AQUI LO DE FACEBOOK</td>
 					</tr>
 					<tr>
-						<td><span id="textc32" width="33%"><b>Te proponemos la primera acción distribuida para paralizar Bankia.</b> Muchas pequeñas acciones que pueden devolver el control a las personas. ¿Estabas deseando hacer algo y no sabías cómo?</span></td>
-						<td rowspan="1" width="33%"><span id="textc32">¡Apúntate y participa!</span></td>
+						<td width="33%" align="left"><span id="textcuerpo2"><b>Te proponemos la primera acción distribuida para paralizar Bankia.</b> Muchas pequeñas acciones que pueden devolver el control a las personas. ¿Estabas deseando hacer algo y no sabías cómo?</span><br>&nbsp;</td>
+						<td rowspan="1" width="33%"><a href="toque.php"><div id="apuntateboton"><span id="textc32">¡Apúntate y participa!</span></a></div></td>
 					</tr>
 					<tr>
-						<td colspan="2"><img src="images/raton.jpg"></td>
+						<td colspan="2"><img src="images/raton.jpg" width="100%"></td>
 					</tr>
 				</table>
 				
@@ -51,26 +51,9 @@
 
 
 			<div id="contenedorcuerpo">
-				<div id="cuerpo">
-					<table width="100%">
-						<tr>
-							<td valign="top" align="left"><img src="images/icon_bombilla.png"></td>
-							<td align="left" valign="top">&nbsp;<br><span id="textcuerpo1">Todo comienza por el mapa</span></td>
-							<td rowspan="2" valign="top" align="left"><img src="images/swarm_foros.png"></td>
-						</tr>
-						<tr>
-							<td valign="bottom" align="left"><img src="images/icon_ojo.png"></td>
-							<td valign="top" align="left">
-								<p id="textcuerpo2"><b>También puedes navegar por el mapa.</b> Si haces doble click, irás aproximándote al lugar donde quieras buscar tu oficina.</b>
-								<p id="textcuerpo2"><b>Cuando seleccionas una oficina</b> y te registras en ella, entras a formar parte de un grupo de acción, junto con las demás personas que la han escogido.</p>
-								<p id="textcuerpo2"><b>Cada grupo se comunica</b> a través de su foro. Sólo puedes pertenecer a un foro a la vez. De esta manera todas sabemos cuántas somos y podemos distribuir mejor las tareas.</p>
-								<p id="textcuerpo2"><b>Los grupos pueden ver</b> cómo lo están haciendo los demás y aprender de ellos, pero sólo participan en el foro de su sucursal.<p>
-								<p id="textcuerpo2">Por supuesto el teléfono y los bares siguen existiendo ;-)</p>
-							</td>
-							
-						</tr> 
-					</table>
-				</div>
+			
+			aquí más cosas luego
+		
 			</div>	
 	</body>
 </html>
