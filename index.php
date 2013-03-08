@@ -79,7 +79,7 @@
 				<table width="100%">
 					<tr>
 						<td valign="top"><img src="images/icon_bombilla.png"></td>
-						<td align="left" valign="top">Todo comienza por el mapa</td>
+						<td align="left" valign="top"><p>&nbsp;</p>Todo comienza por el mapa</td>
 						<td></td>
 					</tr>
 					<tr>
