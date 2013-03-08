@@ -51,7 +51,7 @@
 					</tr>
                                 	<tr>
 						<td></td>
-                                                <td><span id="textc31">1 </span><span id="textc32">Pulsa en buscar y acepta geolocalizarte</span></td>
+                                                <td><span id="textc31">1 </span><span id="textc32">Pulsa en Buscar</span></td>
                                                 <td></td>
                                                 <td><span id="textc31">2 </span><span id="textc32">Escoge oficina</span></td>
                                                 <td></td>
