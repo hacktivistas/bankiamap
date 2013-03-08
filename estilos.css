@@ -49,4 +49,5 @@ a, a:active, a:focus, a:visited {text-decoration:none;outline: none}
 #textc30{color:#1c3876;font-family: UbuntuB;font-size:34px}
 #textc31{color:#d0d7e7;text-align:center;font-family: UbuntuB;font-size:45px} 
 #textc32{color:#1c3876;text-align:center;font-family: UbuntuR;font-size:15px}  
-#textcuerpo1{color:#233770;text-align:center;font-family: UbuntuB;font-size:25px} 
+#textcuerpo1{color:#233770;text-align:left;font-family: UbuntuB;font-size:25px} 
+#textcuerpo2{color:#233770;text-align:left;font-family: UbuntuR;font-size:16px} 
