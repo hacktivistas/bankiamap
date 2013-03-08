@@ -66,7 +66,7 @@
 
 			<div id="contenedormapa1">
 				<div id="contenedormapa2">
-					<iframe src="map/mapa.html" width="100%" height="400"></iframe>						
+					<iframe src="map/index.html" width="100%" height="400"></iframe>						
 				</div>
 			</div>
 
