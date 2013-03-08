@@ -33,21 +33,17 @@
 				</table>
 			</div>
 			<div id="presentacion">
-				<table width="100%">
+				<table width="100%" border="0">
 					<tr>
-						<td><span id="textc30">¡Dale un toque a bankia!</span></td>
-						<td>2</td>
-						<td>3</td>
+						<td colspan="2" width="75%"><span id="textc30">¡Dale un toque a bankia!</span></td>
+						<td rowspan="3" width="25%">AQUI LO DE FACEBOOK</td>
 					</tr>
 					<tr>
-						<td>1</td>
-						<td><span id="textc32">2</span></td>
-						<td>3</td>
+						<td><span id="textc32" width="33%"><b>Te proponemos la primera acción distribuida para paralizar Bankia.</b> Muchas pequeñas acciones que pueden devolver el control a las personas. ¿Estabas deseando hacer algo y no sabías cómo?</span></td>
+						<td rowspan="1" width="33%"><span id="textc32">¡Apúntate y participa!</span></td>
 					</tr>
 					<tr>
-						<td>1</td>
-						<td><span id="textc32">3</span></td>
-						<td>3</td>
+						<td colspan="2"><img src="images/raton.jpg"></td>
 					</tr>
 				</table>
 				
