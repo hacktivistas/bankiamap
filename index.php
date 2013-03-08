@@ -70,7 +70,6 @@
 			<div id="contenedormapa1">
 				<div id="contenedormapa2">
 				
-					<iframe src="mapa.html" width="100%" height="600"></iframe>
 					<div id="mapa"></div>
 					
 				</div>
