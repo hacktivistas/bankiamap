@@ -40,10 +40,8 @@ a, a:active, a:focus, a:visited {text-decoration:none;outline: none}
 #cuerpo{padding:0;background:#FFFFFF;width:100%;}
 #info{padding:0;background:#FFFFFF;width:100%;}                                                                             
 
-
-
 #textc21{color:#FFFFFF;font-family: UbuntuR;font-size:15px}
-
 #textc30{color:#1c3876;font-family: UbuntuB;font-size:34px}
 #textc31{color:#d0d7e7;text-align:center;font-family: UbuntuB;font-size:45px} 
 #textc32{color:#1c3876;text-align:center;font-family: UbuntuR;font-size:15px}  
+#textcuerpo1{color:#233770;text-align:center;font-family: UbuntuB;font-size:25px} 
