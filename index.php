@@ -40,7 +40,7 @@
 					</tr>
 					<tr>
 						<td width="33%" align="left"><span id="textcuerpo2"><b>Te proponemos la primera acción distribuida para paralizar Bankia.</b> Muchas pequeñas acciones que pueden devolver el control a las personas. ¿Estabas deseando hacer algo y no sabías cómo?</span><br>&nbsp;</td>
-						<td rowspan="1" width="33%" align="center" valign="middle"><a href="toque.php"><div id="apuntateboton"><span id="textboton">¡Apúntate y participa!</span></a></div></td>
+						<td rowspan="1" width="33%" align="center" valign="top"><a href="toque.php"><div id="apuntateboton"><span id="textboton">¡Apúntate y participa!</span></a></div></td>
 					</tr>
 					<tr>
 						<td colspan="2"><img src="images/raton.jpg" width="100%"></td>
