@@ -42,26 +42,26 @@
 						<td width="6%">&nbsp;</td>
 						<td width="17%"><img src="images/icon_geolocaliza.png"></td>
 						<td width="5%"><img src="images/flecha_proceso.png"></td>
-                                                <td width="17%"><img src="images/icon_oficina.png"></td>
-                                                <td width="5%"><img src="images/flecha_proceso.png"></td>
-                                                <td width="17%"><img src="images/icon_acceso.png"></td>
-                                            	<td width="5%"><img src="images/flecha_proceso.png"></td>
-                                                <td width="17%"><img src="images/icon_superapp.png"></td>
-                                                <td width="6%">&nbsp;</td>
+						<td width="17%"><img src="images/icon_oficina.png"></td>
+						<td width="5%"><img src="images/flecha_proceso.png"></td>
+						<td width="17%"><img src="images/icon_acceso.png"></td>
+						<td width="5%"><img src="images/flecha_proceso.png"></td>
+						<td width="17%"><img src="images/icon_superapp.png"></td>
+						<td width="6%">&nbsp;</td>
 					</tr>
-                                	<tr>
+					<tr>
 						<td></td>
-                                                <td><span id="textc31">1 </span><span id="textc32">Pulsa en Buscar</span></td>
-                                                <td></td>
-                                                <td><span id="textc31">2 </span><span id="textc32">Escoge oficina</span></td>
-                                                <td></td>
-                                                <td><span id="textc31">3 </span><span id="textc32">Elige cómo entrar</span></td>
-                                                <td></td>
-                                                <td><span id="textc31">4 </span><span id="textc32">Acepta la App (sólo facebook)</span></td>
-                                        	<td></td>
+						<td><span id="textc31">1 </span><span id="textc32">Pulsa en Buscar</span></td>
+						<td></td>
+						<td><span id="textc31">2 </span><span id="textc32">Escoge oficina</span></td>
+						<td></td>
+						<td><span id="textc31">3 </span><span id="textc32">Elige cómo entrar</span></td>
+						<td></td>
+						<td><span id="textc31">4 </span><span id="textc32">Acepta la App (sólo facebook)</span></td>
+						<td></td>
 					</tr>
-
 				</table>
+				
 			</div>
 
 			<div id="contenedormapa1">
@@ -95,11 +95,18 @@
 			</div>	
 			<div id="contenedorinfo">
 				<div id="info">
-					<p><b>Si entras con tu usuario de Facebook</b> es más cómodo para tí y puedes interactuar también en ese espacio.  Además le das difusión a “Toque a Bankia”.</p>
-					<p>La noticia de que te has apuntado a la acción aparecerá en tu muro y en el de todas las demás personas de tu grupo.</p>
-
-					<p><b>Si te registras con el formulario</b> todo es igual salvo que no has conectado tu Facebook a la acción y tu espacio privilegiado será el foro.</p>
-					<p>En ambos casos es muy importante que el grupo se organice para definir formas de acción y disponibilidad horaria para la jornada.</p>
+					<table cellpadding="20">
+						<tr>
+							<td align="left">
+								<p id="textcuerpo2"><b>Si entras con tu usuario de Facebook</b> es más cómodo para tí y puedes interactuar también en ese espacio.  Además le das difusión a “Toque a Bankia”.</p>
+								<p id="textcuerpo2">La noticia de que te has apuntado a la acción aparecerá en tu muro y en el de todas las demás personas de tu grupo.</p>
+							</td>
+							<td align="left">
+								<p id="textcuerpo2"><b>Si te registras con el formulario</b> todo es igual salvo que no has conectado tu Facebook a la acción y tu espacio privilegiado será el foro.</p>
+								<p id="textcuerpo2">En ambos casos es muy importante que el grupo se organice para definir formas de acción y disponibilidad horaria para la jornada.</p>
+							</td>
+						</tr>
+					</table>
 				</div>	
 			</div>
 	</body>

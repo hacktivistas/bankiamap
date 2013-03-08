@@ -42,8 +42,8 @@ a, a:active, a:focus, a:visited {text-decoration:none;outline: none}
 #contenedorcuerpo {height:440px; width:100%;background:#FFF}
 #cuerpo{margin-left:auto;margin-right:auto;height:400px; width:97%; padding:20px 0px; background:#FFF}
 
-#contenedorinfo {height:440px; width:100%;background:#FFF}
-#info{margin-left:auto;margin-right:auto;height:400px; width:97%; padding:20px 0px; background:#FFF;border: 3px dashed #3C67BC;-moz-border-radius: 7px;}                                               
+#contenedorinfo {height:180px; width:100%;background:#FFF}
+#info{margin-left:auto;margin-right:auto;height:160px; width:97%; padding:20px 0px; background:#FFF;border: 3px dashed #3C67BC;-moz-border-radius: 7px;}                                               
 
 #textc21{color:#FFFFFF;font-family: UbuntuR;font-size:15px}
 #textc30{color:#1c3876;font-family: UbuntuB;font-size:34px}
