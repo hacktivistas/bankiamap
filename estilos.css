@@ -126,7 +126,7 @@ body{background:#E6EAF2;padding:0;margin:0 auto;text-align:center;font-family:Ar
 
 #contenedormapa1 {height:440px; width:100%;background:#FFF}
 #contenedormapa2 {margin-left:auto;margin-right:auto;height:400px; width:97%; padding:20px 0px; background:#FFF}
-#mapa {height:100%; width:100%;padding:0px}
+#mapa{margin:0;padding:0;width:100%;height:100%;font-family:Arial,sans-serif;font-color:#38383}
 
 a, a:active, a:focus, a:visited {text-decoration:none;outline: none}
 
@@ -146,7 +146,7 @@ a, a:active, a:focus, a:visited {text-decoration:none;outline: none}
 
 #botonera{position:fixed;top:10px;left:50px;z-index:2}
 
-#cargando{position:fixed;top:10px;left:900px;width:10px;height:20px;background:#433128;color:#fff;font-size:2em;z-index:10}
+#cargando{position:fixed;top:0;left:0;width:100%;height:100%;background:#433128;color:#fff;font-size:2em;padding:20% 40%;z-index:10}
 .boton{border:1px solid #96d1f8;background:#65a9d7;background:-webkit-gradient(linear,left top,left bottom,from(#3e779d),to(#65a9d7));background:-webkit-linear-gradient(top,#3e779d,#65a9d7);background:-moz-linear-gradient(top,#3e779d,#65a9d7);background:-ms-linear-gradient(top,#3e779d,#65a9d7);background:-o-linear-gradient(top,#3e779d,#65a9d7);padding:12px 24px;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;-webkit-box-shadow:rgba(0,0,0,1) 0 1px 0;-moz-box-shadow:rgba(0,0,0,1) 0 1px 0;box-shadow:rgba(0,0,0,1) 0 1px 0;text-shadow:rgba(0,0,0,.4) 0 1px 0;color:#fff!important;font-size:17px;text-decoration:none;vertical-align:middle}
 .boton:hover{border-top-color:#28597a;background:#28597a;color:#ccc}
 .boton:active{border-top-color:#1b435e;background:#1b435e}

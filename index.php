@@ -10,11 +10,8 @@
 		<meta name="distribution" CONTENT="global"/>
 		<meta name="revisit" CONTENT="0 day" />
 		<meta name="robots" CONTENT="all" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		<link rel="stylesheet" href="estilos.css" />
 		<!--[if lte IE 8]> <link rel="stylesheet" href="estilos.ie.css" />  <![endif]-->  
-		<script type="text/javascript" src="lib/yepnope/yepnope.js"></script>
 		<title>Bankia - Toque a Bankia</title>
 	</head>
 	<body>
@@ -69,9 +66,7 @@
 
 			<div id="contenedormapa1">
 				<div id="contenedormapa2">
-				
-					<div id="mapa"></div>
-					
+					<iframe src="http://hacktivistas.github.com/bankiamap/" width="100%" height="400"></iframe>						
 				</div>
 			</div>
 
@@ -95,11 +90,6 @@
 					</tr> 
 				</table>
 			</div>
-			
-			<div id="cargando">Cargando...</div>
-			<div id="botonera"><button id="localizame" class="boton">Busca tu oficina</button></div>
-			
-			<script type="text/javascript" src="bankia.js"></script>
-
+					
 	</body>
 </html>
