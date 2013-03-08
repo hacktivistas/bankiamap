@@ -69,7 +69,10 @@
 
 			<div id="contenedormapa1">
 				<div id="contenedormapa2">
+				
+					<iframe src="mapa.html" width="100%" height="600"></iframe>
 					<div id="mapa"></div>
+					
 				</div>
 			</div>
 
@@ -77,7 +80,7 @@
 				<table width="100%">
 					<tr>
 						<td valign="top"><img src="images/icon_bombilla.png"></td>
-						<td align="left" vlalign="top">Todo comienza por el mapa</td>
+						<td align="left" valign="top">Todo comienza por el mapa</td>
 						<td></td>
 					</tr>
                                         <tr>
