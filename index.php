@@ -35,7 +35,7 @@
 			<div id="presentacion">
 				<table width="100%" border="0">
 					<tr>
-						<td colspan="2" width="75%" align="left"><p id="textc30">&nbsp;¡Dale un toque a bankia!</p></td>
+						<td colspan="2" width="75%" align="left" height="10"><p id="textbig">&nbsp;¡Dale un toque a bankia!</p></td>
 						<td rowspan="3" width="25%">AQUI LO DE FACEBOOK</td>
 					</tr>
 					<tr>

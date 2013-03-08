@@ -52,6 +52,7 @@ a, a:active, a:focus, a:visited {text-decoration:none;outline: none}
 #textcuerpo1{color:#233770;text-align:left;font-family: UbuntuB;font-size:25px} 
 #textcuerpo2{color:#233770;text-align:left;font-family: UbuntuR;font-size:16px} 
 #textboton{color:#FFFFFF;text-align:center;font-family: UbuntuR;font-size:20px} 
+#textbig{color:#1c3876;font-family: UbuntuB;font-size:50px}
 
 #apuntateboton{
 	text-align: center;
