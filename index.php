@@ -92,6 +92,15 @@
 						</tr> 
 					</table>
 				</div>
-			</div>		
+			</div>	
+			<div id="contenedorinfo">
+				<div id="info">
+					<p><b>Si entras con tu usuario de Facebook</b> es más cómodo para tí y puedes interactuar también en ese espacio.  Además le das difusión a “Toque a Bankia”.</p>
+					<p>La noticia de que te has apuntado a la acción aparecerá en tu muro y en el de todas las demás personas de tu grupo.</p>
+
+					<p><b>Si te registras con el formulario</b> todo es igual salvo que no has conectado tu Facebook a la acción y tu espacio privilegiado será el foro.</p>
+					<p>En ambos casos es muy importante que el grupo se organice para definir formas de acción y disponibilidad horaria para la jornada.</p>
+				</div>	
+			</div>
 	</body>
 </html>
