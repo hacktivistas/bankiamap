@@ -123,8 +123,8 @@
 							<p id="textcuerpo2"><img src="images/vineta_check.png">El día de la acción todas visitamos nuestra oficina al mismo tiempo.</p>
 
 							<p id="textcuerpo2"><a href="http://www.facebook.com/Toque.a.Bankia">Más información de “Toque a Bankia”</a></p>
+							<a href="toque.php"><div id="apuntateboton"><span id="textboton">¡Comienza ahora!</span></div></a>
 
-							¡Comienza ahora! 
 							</td>
 							<td>
 								<img src="images/swarm_bankia-es-nuestra.png">
