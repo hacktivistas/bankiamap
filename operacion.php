@@ -39,14 +39,14 @@
 				</table>
 			</div>
 			
+			<div id="presentacion">
+				<p id="textcuerpo1">¿Qué es “Toque a Bankia”?</p>
+				<p>Vamos a paralizar todas las sucursales</p>
+				<p>Vamos a rescatar los derechos de las personas</p>
+				<center><img src="images/TAB_quees_99.png"></center>
+			</div>
 			<div id="contenedorcuerpo">
 				<div id="cuerpo">
-					
-					<p id="textcuerpo1">¿Qué es “Toque a Bankia”?</p>
-					<p>Vamos a paralizar todas las sucursales</p>
-					<p>Vamos a rescatar los derechos de las personas</p>
-					
-
 								<p id="textcuerpo1">Queremos interrumpir la normalidad de la oficina</p>
 								<p id="textcuerpo2">Interferir en la actividad habitual, en todas las sucursales, significa paralizar Bankia.</p>
 								<p id="textcuerpo1">Queremos ejercer derechos básicos de los clientes</p>
