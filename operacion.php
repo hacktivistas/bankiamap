@@ -67,13 +67,13 @@
 								<p id="textcuerpo2">La eficacia está en la duración. Para bloquear toda la jornada laboral necesitamos ser suficientes para cubrir, por grupos, todas las franjas horarias. Aquí es clave evitar el desgaste excesivo de nadie.</p>
 								<p id="textcuerpo1">Queremos visibilizar el 99%</p>
 								<p id="textcuerpo2">El éxito de la acción es el éxito de todas las pequeñas acciones en el total de oficinas. La consigna aquí es ¡traete hasta a tu abuela! Por eso será importante que la información circule y se visibilice de la manera más coordinada posible.</p>
-
-								<a href="toque.php"><div id="apuntateboton"><span id="textboton">¡Comienza ahora!</span></div></a>
+				</div>
+								<p><a href="toque.php"><div id="apuntateboton"><span id="textboton">¡Comienza ahora!</span></div></a></p>
 								<p id="textcuerpo2"><a href="rescate.php"><center>¿En qué Consiste el rescate?</center></a></p>
 
 					
 					
-				</div>
+				
 			</div>
 	</div>
 	</body>
