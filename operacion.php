@@ -44,8 +44,8 @@
 				<p id="textop1">Vamos a paralizar todas las sucursales<br>Vamos a rescatar los derechos de las personas</p>
 				<center><img src="images/TAB_quees_99.png"></center>
 			</div>
-			<div id="contenedorcuerpo">
-				<div id="cuerpo">
+			<div id="contenedorcuerpo2">
+				<div id="cuerpo2">
 								<p id="textcuerpo1">Queremos interrumpir la normalidad de la oficina</p>
 								<p id="textcuerpo2">Interferir en la actividad habitual, en todas las sucursales, significa paralizar Bankia.</p>
 								<p id="textcuerpo1">Queremos ejercer derechos básicos de los clientes</p>
