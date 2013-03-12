@@ -99,7 +99,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td width="33%" align="left"><span id="textcuerpo2"><b>Te proponemos la primera acción distribuida para paralizar Bankia.</b> Muchas pequeñas acciones que pueden devolver el control a las personas.<br>¿Estabas deseando hacer algo y no sabías cómo?</span></td>
+						<td width="33%" align="left"><span id="textcuerpo2"><b>Te proponemos la primera acción distribuida para paralizar Bankia.</b> Muchas pequeñas acciones que pueden devolver el control a las personas.<p>¿Estabas deseando hacer algo y no sabías cómo?</p></span></td>
 						<td rowspan="1" width="33%" align="center" valign="middle"><a href="toque.php"><div id="apuntateboton"><span id="textboton">¡Apúntate y participa!</span></div></a></td>
 					</tr>
 					<tr>
@@ -111,19 +111,19 @@
 
 
 			<div id="contenedorcuerpo">
-			
-Todo sucede en la oficina más cercana
+				<div id="cuerpo">
+					Todo sucede en la oficina más cercana
 
-Esta es una acción de la gente común. Es muy sencillo, te ofrecemos una herramienta web para entrar en contacto con otras personas cerca de tí y poneros de acuerdo para visitar vuestra sucursal.
+					Esta es una acción de la gente común. Es muy sencillo, te ofrecemos una herramienta web para entrar en contacto con otras personas cerca de tí y poneros de acuerdo para visitar vuestra sucursal.
 
-Te apuntas a la oficina que mejor te venga.
-Conoces a otras personas y aportas tus ideas.
-El día de la acción todas visitamos nuestra oficina al mismo tiempo.
+					Te apuntas a la oficina que mejor te venga.
+					Conoces a otras personas y aportas tus ideas.
+					El día de la acción todas visitamos nuestra oficina al mismo tiempo.
 
-Más información de “Toque a Bankia” [enlace a pág Operación Toque]
+					Más información de “Toque a Bankia”
 
-¡Comienza ahora! 
-		
+					¡Comienza ahora! 
+				</div>
 			</div>
 	</div>
 	</body>

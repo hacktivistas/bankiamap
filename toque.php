@@ -57,7 +57,7 @@
 						<td></td>
 						<td><span id="textc31">3 </span><span id="textc32">Elige cómo entrar</span></td>
 						<td></td>
-						<td><span id="textc31">4 </span><span id="textc32">Acepta la App (sólo facebook)</span></td>
+						<td><span id="textc31">4 </span><span id="textc32">Acepta la App (sólo FB)</span></td>
 						<td></td>
 					</tr>
 				</table>
