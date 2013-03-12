@@ -55,33 +55,48 @@
 								</script>	
 								<div class="fb-like" data-href="http://bankia.mepone.net" data-send="true" data-layout="button_count" data-width="450" data-show-faces="true" data-font="arial" data-action="recommend"></div>
 								<?php
-								$rss = new DOMDocument();
-								$rss->load('http://www.facebook.com/feeds/page.php?id=127892434049953&format=rss20');
-								$feed = array();
-								foreach ($rss->getElementsByTagName('item') as $node) {
-									$item = array ( 
-									'title' => $node->getElementsByTagName('title')->item(0)->nodeValue,
-									'desc' => $node->getElementsByTagName('description')->item(0)->nodeValue,
-									'link' => $node->getElementsByTagName('link')->item(0)->nodeValue,
-									'date' => $node->getElementsByTagName('pubDate')->item(0)->nodeValue,
-									);
-								array_push($feed, $item);
+ 
+								function fetch_fb_feed($url, $maxnumber) {
+								ini_set('user_agent', 'Mozilla/5.0 (Linux; U; Debian 6.0; ES-es; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3');
+								$updates = simplexml_load_file($url);
+								$fb_array = array();
+								foreach ($updates->channel->item as $fb_update) {
+									if ($maxnumber == 0) {
+										break;
+									} else {
+										$desc = $fb_update->description;
+										$desc = str_replace('href="', 'href="http://www.facebook.com', $desc);
+										#$desc = iconv("UTF-8", "ISO-8859-1//TRANSLIT", $desc);
+										$pubdate = strtotime($fb_update->pubDate);
+										$propertime = gmdate('F jS Y, H:i', $pubdate);
+										$linkback = $fb_update->link;
+										$fb_item = array(
+											'desc' => $desc,
+											'date' => $propertime,
+											'link' => $linkback
+										);
+										array_push($fb_array, $fb_item);
+										$maxnumber--;
+									}          
 								}
-								
-								$limit = 10;
-								for($x=0;$x<$limit;$x++) {
-									$title = str_replace(' & ', ' &amp; ', $feed[$x]['title']);
-									$link = $feed[$x]['link'];
-									$description = $feed[$x]['desc'];
-									$date = date('l F d, Y', strtotime($feed[$x]['date']));
-									echo '<p><strong><a href="'.$link.'" title="'.$title.'">'.$title.'</a></strong><br />';
-									echo '<small><em>Posted on '.$date.'</em></small></p>';
-									echo '<p>'.$description.'</p>';
-								}
-								
+
+								return $fb_array;
+								} 
+ 
+								$myfb_statuses = fetch_fb_feed('http://www.facebook.com/feeds/page.php?id=127892434049953&format=rss20', 3);
+  
+								echo '<ul class="fb-updates">';
+								foreach ($myfb_statuses as $k => $v) {
+									echo '<li>';
+									echo '<span class="update">' .$v['desc']. '</span>';
+									echo '<span class="date">' .$v['date']. '</span>';
+									echo '<span class="link"><a href="' .$v['link']. '">Link to status update</a></span>';
+									echo '</li>';
+								} 
+								echo '</ul>'; 
+ 
 								?>
-						
-						
+
 						</td>
 					</tr>
 					<tr>
