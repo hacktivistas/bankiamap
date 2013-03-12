@@ -41,7 +41,7 @@
 			<div id="presentacion">
 				<table width="100%" border="0">
 					<tr>
-						<td colspan="2" width="75%" align="right" height="10"><p id="textc30">&nbsp;¡Dale un toque a bankia!</p></td>
+						<td colspan="2" width="75%" align="center" height="10"><p id="textc30">&nbsp;¡Dale un toque a bankia!</p></td>
 						<td rowspan="3" width="25%" valign="top" align="left">
 							<div id="fb-root"></div>
 								<script>
@@ -54,7 +54,7 @@
 								}(document, 'script', 'facebook-jssdk'));
 								</script>	
 								<p>
-								<div class="fb-like" data-href="http://bankia.mepone.net" data-send="true" data-layout="button_count" data-width="450" data-show-faces="true" data-font="arial" data-action="recommend"></div>
+								<center><div class="fb-like" data-href="http://bankia.mepone.net" data-send="true" data-layout="button_count" data-width="450" data-show-faces="true" data-font="arial" data-action="recommend"></div></center>
 								</p>
 								<?php
  
@@ -85,12 +85,12 @@
 								return $fb_array;
 								} 
  
-								$myfb_statuses = fetch_fb_feed('http://www.facebook.com/feeds/page.php?id=127892434049953&format=rss20', 2);
+								$myfb_statuses = fetch_fb_feed('http://www.facebook.com/feeds/page.php?id=127892434049953&format=rss20', 3);
 								echo '<div id="fbcontenedor">';
-								echo '<div id="fbupdates"><span id="textboton"><center><a href="http://www.facebook.com/Toque.a.Bankia">Toque a Bankia en FB</a></center></span>';
+								echo '<div id="fbupdates"><span id="textboton"><center><a class="one" href="http://www.facebook.com/Toque.a.Bankia">&nbsp;<br>Toque a Bankia en FB<br>&nbsp;</a></center></span>';
 								foreach ($myfb_statuses as $k => $v) {
-									echo '<div id="fbstatus"><img src="images/marcador-bankia.png" width="16"> <span id="textfb1">' .$v['desc']. '</span></div>';
-									echo '<a href="' .$v['link']. '"><div id="fbstatus"><span id="textfb1">' .$v['date']. '</div></a></span>';
+									echo '<a href="' .$v['link']. '"><div id="fbstatus"><img src="images/marcador-bankia.png" width="12"> <span id="textfb1">' .$v['desc']. '</span></div></a>';
+									#echo '<a href="' .$v['link']. '"><div id="fbstatus"><span id="textfb1">' .$v['date']. '</span></div></a>';
 								} 
 								echo '</div>'; 
  								echo '</div>'; 
@@ -99,8 +99,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td width="33%" align="left"><span id="textcuerpo2"><b>Te proponemos la primera acción distribuida para paralizar Bankia.</b> Muchas pequeñas acciones que pueden devolver el control a las personas. ¿Estabas deseando hacer algo y no sabías cómo?</span><br>&nbsp;</td>
-						<td rowspan="1" width="33%" align="center" valign="top"><a href="toque.php"><div id="apuntateboton"><span id="textboton">¡Apúntate y participa!</span></div></a></td>
+						<td width="33%" align="left"><span id="textcuerpo2"><b>Te proponemos la primera acción distribuida para paralizar Bankia.</b> Muchas pequeñas acciones que pueden devolver el control a las personas.<br>¿Estabas deseando hacer algo y no sabías cómo?</span></td>
+						<td rowspan="1" width="33%" align="center" valign="middle"><a href="toque.php"><div id="apuntateboton"><span id="textboton">¡Apúntate y participa!</span></div></a></td>
 					</tr>
 					<tr>
 						<td colspan="2"><img src="images/raton.jpg" width="100%"></td>
@@ -112,7 +112,17 @@
 
 			<div id="contenedorcuerpo">
 			
-			aquí más cosas luego
+Todo sucede en la oficina más cercana
+
+Esta es una acción de la gente común. Es muy sencillo, te ofrecemos una herramienta web para entrar en contacto con otras personas cerca de tí y poneros de acuerdo para visitar vuestra sucursal.
+
+Te apuntas a la oficina que mejor te venga.
+Conoces a otras personas y aportas tus ideas.
+El día de la acción todas visitamos nuestra oficina al mismo tiempo.
+
+Más información de “Toque a Bankia” [enlace a pág Operación Toque]
+
+¡Comienza ahora! 
 		
 			</div>
 	</div>

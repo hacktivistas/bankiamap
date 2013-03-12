@@ -49,9 +49,9 @@ a, a:active, a:focus, a:visited {text-decoration:none;outline: none}
 
 #contenedorinfo {height:260px; width:100%;background:#FFF}
 
-#fbcontenedor {padding:0px 25px 0px 25px;}
-#fbupdates {background:#8498C1;padding:0px 5px 0px 5px;}
-#fbstatus {background:#EDF0F4;padding:0px 20px 0px 20px;}
+#fbcontenedor {padding:0px 20px 0px 20px;}
+#fbupdates {background:#8498C1;padding:5px 5px 5px 5px;}
+#fbstatus {background:#EDF0F4;padding:10px 10px 10px 10px;}
 
 
 #textc21{color:#FFFFFF;font-family: UbuntuR;font-size:15px}
@@ -63,6 +63,10 @@ a, a:active, a:focus, a:visited {text-decoration:none;outline: none}
 #textboton{color:#FFFFFF;text-align:center;font-family: UbuntuR;font-size:20px} 
 #textbig{color:#1c3876;font-family: UbuntuB;font-size:50px}
 #textfb1{color:#233770;text-align:left;font-family: UbuntuR;font-size:13px} 
+
+a.one:link {color:#FFFFFF;}
+a.one:visited {color:#1c3876;}
+a.one:hover {color:#1c3876;}
 
 #apuntateboton{
 	text-align: center;
