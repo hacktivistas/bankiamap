@@ -118,11 +118,11 @@
 							<p id="textcuerpo1">Todo sucede en la oficina más cercana</p>
 
 							<p id="textcuerpo2">Esta es una acción de la gente común. Es muy sencillo, te ofrecemos una herramienta web para entrar en contacto con otras personas cerca de tí y poneros de acuerdo para visitar vuestra sucursal.</p>
-							<p id="textcuerpo2">Te apuntas a la oficina que mejor te venga.</p>
-							<p id="textcuerpo2">Conoces a otras personas y aportas tus ideas.</p>
-							<p id="textcuerpo2">El día de la acción todas visitamos nuestra oficina al mismo tiempo.</p>
+							<p id="textcuerpo2"><img src="images/vineta_check.png">Te apuntas a la oficina que mejor te venga.</p>
+							<p id="textcuerpo2"><img src="images/vineta_check.png">Conoces a otras personas y aportas tus ideas.</p>
+							<p id="textcuerpo2"><img src="images/vineta_check.png">El día de la acción todas visitamos nuestra oficina al mismo tiempo.</p>
 
-							Más información de “Toque a Bankia”
+							<p id="textcuerpo2"><a href="http://www.facebook.com/Toque.a.Bankia">Más información de “Toque a Bankia”</a></p>
 
 							¡Comienza ahora! 
 							</td>
