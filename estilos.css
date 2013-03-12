@@ -63,6 +63,7 @@ a, a:active, a:focus, a:visited {text-decoration:none;outline: none}
 #textboton{color:#FFFFFF;text-align:center;font-family: UbuntuR;font-size:20px} 
 #textbig{color:#1c3876;font-family: UbuntuB;font-size:50px}
 #textfb1{color:#233770;text-align:left;font-family: UbuntuR;font-size:13px} 
+#textop1{color:#8598c0;text-align:center;font-family: UbuntuB;font-size:45px} 
 
 a.one:link {color:#FFFFFF;}
 a.one:visited {color:#1c3876;}

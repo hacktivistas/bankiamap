@@ -41,8 +41,7 @@
 			
 			<div id="presentacion">
 				<p id="textcuerpo1">¿Qué es “Toque a Bankia”?</p>
-				<p>Vamos a paralizar todas las sucursales</p>
-				<p>Vamos a rescatar los derechos de las personas</p>
+				<p id="textop1">Vamos a paralizar todas las sucursales<br>Vamos a rescatar los derechos de las personas</p>
 				<center><img src="images/TAB_quees_99.png"></center>
 			</div>
 			<div id="contenedorcuerpo">
