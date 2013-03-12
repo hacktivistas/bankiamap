@@ -112,17 +112,30 @@
 
 			<div id="contenedorcuerpo">
 				<div id="cuerpo">
-					Todo sucede en la oficina más cercana
+					<table>
+						<tr>
+							<td>
+							Todo sucede en la oficina más cercana
 
-					Esta es una acción de la gente común. Es muy sencillo, te ofrecemos una herramienta web para entrar en contacto con otras personas cerca de tí y poneros de acuerdo para visitar vuestra sucursal.
+							Esta es una acción de la gente común. Es muy sencillo, te ofrecemos una herramienta web para entrar en contacto con otras personas cerca de tí y poneros de acuerdo para visitar vuestra sucursal.
 
-					Te apuntas a la oficina que mejor te venga.
-					Conoces a otras personas y aportas tus ideas.
-					El día de la acción todas visitamos nuestra oficina al mismo tiempo.
+							Te apuntas a la oficina que mejor te venga.
+							Conoces a otras personas y aportas tus ideas.
+							El día de la acción todas visitamos nuestra oficina al mismo tiempo.
 
-					Más información de “Toque a Bankia”
+							Más información de “Toque a Bankia”
 
-					¡Comienza ahora! 
+							¡Comienza ahora! 
+							</td>
+							<td>
+								<img src="images/swarm_bankia-es-nuestra.png">
+							</td>	
+						</tr>
+					</table>
+					
+					
+					
+					
 				</div>
 			</div>
 	</div>
