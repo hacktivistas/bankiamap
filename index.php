@@ -15,7 +15,7 @@
 		<title>Bankia - Toque a Bankia</title>
 	</head>
 	<body>
-
+	<div id="principal">
 			<div id="cabecera">
 				<a href="index.php"><img src="images/TAB_logoWeb.png"></a>
 			</div>
@@ -54,6 +54,7 @@
 			
 			aquí más cosas luego
 		
-			</div>	
+			</div>
+	</div>
 	</body>
 </html>
