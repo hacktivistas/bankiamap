@@ -89,11 +89,8 @@
 								echo '<div id="fbcontenedor">';
 								echo '<div id="fbupdates"><span id="textboton"><center><a href="http://www.facebook.com/Toque.a.Bankia">Toque a Bankia en FB</a></center></span>';
 								foreach ($myfb_statuses as $k => $v) {
-									echo '<div id="fbstatus">';
-									echo '<img src="images/marcador-bankia.png" width="16"> <span id="textfb1">' .$v['desc']. '</span>';
-									echo '<span id="textfb1">' .$v['date']. '</span>';
-									echo '<span id="textfb1"><a href="' .$v['link']. '">Link to status update</a></span>';
-									echo '</div>';
+									echo '<div id="fbstatus"><img src="images/marcador-bankia.png" width="16"> <span id="textfb1">' .$v['desc']. '</span></div>';
+									echo '<a href="' .$v['link']. '"><div id="fbstatus"><span id="textfb1">' .$v['date']. '</div></a></span>';
 								} 
 								echo '</div>'; 
  								echo '</div>'; 
