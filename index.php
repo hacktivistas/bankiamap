@@ -11,6 +11,9 @@
 		<meta name="revisit" CONTENT="0 day" />
 		<meta name="robots" CONTENT="all" />
 		<link rel="stylesheet" href="estilos.css" />
+		<meta property=”og:title” content=”Toque a Bankia”/>
+		<meta property=”og:site_name” content=”Dale un toque a Bankia”/>
+		<meta property=”og:image” content=”http://bankia.mepone.net/images/TAB_logoWeb.png”/>
 		<!--[if lte IE 8]> <link rel="stylesheet" href="estilos.ie.css" />  <![endif]-->  
 		<title>Bankia - Toque a Bankia</title>
 	</head>
