@@ -47,6 +47,13 @@ a, a:active, a:focus, a:visited {text-decoration:none;outline: none}
 #contenedorinfo {height:260px; width:100%;background:#FFF}
 #info{margin-left:auto;margin-right:auto;height:160px; width:97%; padding:20px 0px; background:#FFF;border: 3px dashed #3C67BC;-moz-border-radius: 3px}                                               
 
+#contenedorinfo {height:260px; width:100%;background:#FFF}
+
+#fbcontenedor {padding:0px 25px 0px 25px;}
+#fbupdates {background:#8498C1;padding:0px 5px 0px 5px;}
+#fbstatus {background:#EDF0F4;padding:0px 20px 0px 20px;}
+
+
 #textc21{color:#FFFFFF;font-family: UbuntuR;font-size:15px}
 #textc30{color:#1c3876;font-family: UbuntuB;font-size:34px}
 #textc31{color:#d0d7e7;text-align:center;font-family: UbuntuB;font-size:45px} 
@@ -55,6 +62,7 @@ a, a:active, a:focus, a:visited {text-decoration:none;outline: none}
 #textcuerpo2{color:#233770;text-align:left;font-family: UbuntuR;font-size:16px} 
 #textboton{color:#FFFFFF;text-align:center;font-family: UbuntuR;font-size:20px} 
 #textbig{color:#1c3876;font-family: UbuntuB;font-size:50px}
+#textfb1{color:#233770;text-align:left;font-family: UbuntuR;font-size:13px} 
 
 #apuntateboton{
 	text-align: center;

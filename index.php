@@ -42,7 +42,7 @@
 				<table width="100%" border="0">
 					<tr>
 						<td colspan="2" width="75%" align="right" height="10"><p id="textc30">&nbsp;¡Dale un toque a bankia!</p></td>
-						<td rowspan="3" width="25%">
+						<td rowspan="3" width="25%" valign="top" align="left">
 							<div id="fb-root"></div>
 								<script>
 								(function(d, s, id) {
@@ -53,7 +53,9 @@
 									fjs.parentNode.insertBefore(js, fjs);
 								}(document, 'script', 'facebook-jssdk'));
 								</script>	
+								<p>
 								<div class="fb-like" data-href="http://bankia.mepone.net" data-send="true" data-layout="button_count" data-width="450" data-show-faces="true" data-font="arial" data-action="recommend"></div>
+								</p>
 								<?php
  
 								function fetch_fb_feed($url, $maxnumber) {
@@ -83,18 +85,18 @@
 								return $fb_array;
 								} 
  
-								$myfb_statuses = fetch_fb_feed('http://www.facebook.com/feeds/page.php?id=127892434049953&format=rss20', 3);
-  
-								echo '<ul class="fb-updates">';
+								$myfb_statuses = fetch_fb_feed('http://www.facebook.com/feeds/page.php?id=127892434049953&format=rss20', 2);
+								echo '<div id="fbcontenedor">';
+								echo '<div id="fbupdates"><span id="textboton"><center><a href="http://www.facebook.com/Toque.a.Bankia">Toque a Bankia en FB</a></center></span>';
 								foreach ($myfb_statuses as $k => $v) {
-									echo '<li>';
-									echo '<span class="update">' .$v['desc']. '</span>';
-									echo '<span class="date">' .$v['date']. '</span>';
-									echo '<span class="link"><a href="' .$v['link']. '">Link to status update</a></span>';
-									echo '</li>';
+									echo '<div id="fbstatus">';
+									echo '<img src="images/marcador-bankia.png" width="16"> <span id="textfb1">' .$v['desc']. '</span>';
+									echo '<span id="textfb1">' .$v['date']. '</span>';
+									echo '<span id="textfb1"><a href="' .$v['link']. '">Link to status update</a></span>';
+									echo '</div>';
 								} 
-								echo '</ul>'; 
- 
+								echo '</div>'; 
+ 								echo '</div>'; 
 								?>
 
 						</td>
