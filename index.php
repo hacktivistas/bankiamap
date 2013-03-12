@@ -35,8 +35,20 @@
 			<div id="presentacion">
 				<table width="100%" border="0">
 					<tr>
-						<td colspan="2" width="75%" align="left" height="10"><p id="textbig">&nbsp;¡Dale un toque a bankia!</p></td>
-						<td rowspan="3" width="25%">AQUI LO DE FACEBOOK</td>
+						<td colspan="2" width="75%" align="right" height="10"><p id="textc30">&nbsp;¡Dale un toque a bankia!</p></td>
+						<td rowspan="3" width="25%">
+							<div id="fb-root"></div>
+								<script>
+								(function(d, s, id) {
+									var js, fjs = d.getElementsByTagName(s)[0];
+									if (d.getElementById(id)) return;
+									js = d.createElement(s); js.id = id;
+									js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+									fjs.parentNode.insertBefore(js, fjs);
+								}(document, 'script', 'facebook-jssdk'));
+								</script>	
+								<div class="fb-like" data-href="http://bankia.mepone.net" data-send="true" data-layout="button_count" data-width="450" data-show-faces="true" data-font="arial" data-action="recommend"></div>
+						</td>
 					</tr>
 					<tr>
 						<td width="33%" align="left"><span id="textcuerpo2"><b>Te proponemos la primera acción distribuida para paralizar Bankia.</b> Muchas pequeñas acciones que pueden devolver el control a las personas. ¿Estabas deseando hacer algo y no sabías cómo?</span><br>&nbsp;</td>
