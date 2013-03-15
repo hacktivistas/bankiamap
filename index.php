@@ -85,11 +85,26 @@
 								return $fb_array;
 								} 
  
-								$myfb_statuses = fetch_fb_feed('http://www.facebook.com/feeds/page.php?id=127892434049953&format=rss20', 3);
+								$myfb_statuses = fetch_fb_feed('http://www.facebook.com/feeds/page.php?id=127892434049953&format=rss20', 6);
 								echo '<div id="fbcontenedor">';
 								echo '<div id="fbupdates"><span id="textboton"><center><a class="one" href="http://www.facebook.com/Toque.a.Bankia">&nbsp;<br>Toque a Bankia en FB<br>&nbsp;</a></center></span>';
+								
 								foreach ($myfb_statuses as $k => $v) {
-									echo '<a href="' .$v['link']. '"><div id="fbstatus"><img src="images/marcador-bankia.png" width="12"> <span id="textfb1">' .$v['desc']. '</span></div></a>';
+									
+								
+									if(strlen($v[desc]) > 140 )
+									{
+
+										echo '<a href="' .$v['link']. '"><div id="fbstatus"><img src="images/marcador-bankia.png" width="12"> <span id="textfb1">' .strip_tags(substr($v[desc],0,140)). '</span></div></a>';
+
+									
+									}else{
+									
+										echo strip_tags(substr($v[desc],0,140));
+									
+									}
+									
+									#echo '<a href="' .$v['link']. '"><div id="fbstatus"><img src="images/marcador-bankia.png" width="12"> <span id="textfb1">' .$v['desc']. '</span></div></a>';
 									#echo '<a href="' .$v['link']. '"><div id="fbstatus"><span id="textfb1">' .$v['date']. '</span></div></a>';
 								} 
 								echo '</div>'; 
