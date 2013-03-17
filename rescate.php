@@ -51,10 +51,10 @@
 			<div id="contenedorcuerpo2">
 				<div id="cuerpo2">
 
-<ol class="rectangle-list">
-	<li><a href=""><p id="textcuerpo1">Queremos hacerlo durante toda la jornada</p><p id="textcuerpo2">La eficacia está</p></a></li>
-	<li><a href="">List item</a></li>
-	<li><a href="">List item</a></li>						
+<ol>
+	<li><span id="textcuerpo1">Queremos hacerlo durante toda la jornada</span><br><span id="textcuerpo2">La eficacia está</span></li>
+	<li>List item</li>
+	<li>List item</li>						
 </ol>
 
 				</div>
