@@ -51,15 +51,17 @@
 			</div>
 			<div id="contenedorcuerpo3">
 				<div id="cuerpo3">
-<ol>
-	<li><span id="textcuerpo1">Paralización total de los desahucios y dación en pago retroactiva</span><br><span id="textcuerpo2">o condonación de la deuda a las familias que han sufrido la ejecuación hipotecaria de su primera vivienda.</span></li>
-	<li><span id="textcuerpo1">Utilización para alquiler social de todas las viviendas de Bankia</span><br><span id="textcuerpo2">así como las que han pasado al Sareb (banco malo) provenientes de esta entidad.</span></li>
-	<li><span id="textcuerpo1">Recuperación de las participaciones preferentes</span><br><span id="textcuerpo2">conversión en cuentas corrientes de libre disposición, del ahorro puesto por las familias en participaciones preferentes.</span></li>
-	<li><span id="textcuerpo1">Auditoría ciudadana de la deuda de Bankia</span><br><span id="textcuerpo2">estableciendo mecanismos claros que permitan establecer y negarse al pago de la deuda odiosa siguiendo el modelo de juicio ciudadano. Publicación de la contabilidad de Bankia.</span></li>
-	<li><span id="textcuerpo1">Inversión directa en los presupuestos públicos de sanidad, educación e investigación no militar, de lo que se recupere con la auditoría de la deuda</span></li>
-	<li><span id="textcuerpo1">Nacionalización completa de Bankia</span><br><span id="textcuerpo2">pasando su control integro a manos del Estado y estableciendo mecanismos de transparencia, participación del 99% y democracia directa en su consejo de administración.</span></li>
-</ol>
-
+					<ol>
+						<li><span id="textcuerpo1">Paralización total de los desahucios y dación en pago retroactiva</span><br><span id="textcuerpo2">o condonación de la deuda a las familias que han sufrido la ejecuación hipotecaria de su primera vivienda.</span></li>
+						<li><span id="textcuerpo1">Utilización para alquiler social de todas las viviendas de Bankia</span><br><span id="textcuerpo2">así como las que han pasado al Sareb (banco malo) provenientes de esta entidad.</span></li>
+						<li><span id="textcuerpo1">Recuperación de las participaciones preferentes</span><br><span id="textcuerpo2">conversión en cuentas corrientes de libre disposición, del ahorro puesto por las familias en participaciones preferentes.</span></li>
+						<li><span id="textcuerpo1">Auditoría ciudadana de la deuda de Bankia</span><br><span id="textcuerpo2">estableciendo mecanismos claros que permitan establecer y negarse al pago de la deuda odiosa siguiendo el modelo de juicio ciudadano. Publicación de la contabilidad de Bankia.</span></li>
+						<li><span id="textcuerpo1">Inversión directa en los presupuestos públicos de sanidad, educación e investigación no militar, de lo que se recupere con la auditoría de la deuda</span></li>
+						<li><span id="textcuerpo1">Nacionalización completa de Bankia</span><br><span id="textcuerpo2">pasando su control integro a manos del Estado y estableciendo mecanismos de transparencia, participación del 99% y democracia directa en su consejo de administración.</span></li>
+					</ol>
+					<hr>
+					<p id="textcuerpo2">Como habrá que entrar en detalles de cuáles son las maneras, los tiempos y el orden en que cada una de estas exigencias pueden desarrollarse, el establecimiento de una mesa abierta de diálogo y negociación puede considerarse suficiente para detener temporalmente Toque a Bankia.</p>
+					<p id="textcuerpo2"> Si las exigencias no son atendidas, si no podemos rescatar Bankia para las personas, la acción se repetirá en poco tiempo, y tanas veces como sea necesario hasta tumbarla. Para nosotras tumbar Bankia significa <b>forzar su intervención judicia</b>, que los especuladores pierdan su dinero y que las personas recuperemos el nuestro.</p>
 				</div>
 
 

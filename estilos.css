@@ -47,8 +47,8 @@ a, a:active, a:focus, a:visited {text-decoration:none;outline: none}
 #contenedorcuerpo2 {height:670px; width:100%;background:#FFF}
 #cuerpo2{margin-left:auto;margin-right:auto;height:630px; width:97%; padding:20px 0px; background:#FFF}
 
-#contenedorcuerpo3 {text-align: center;height:670px; width:100%;background:#FFF}
-#cuerpo3{text-align: left;height:630px; width:97%; padding:20px 0px; background:#FFF}
+#contenedorcuerpo3 {text-align: center;height:770px; width:100%;background:#FFF}
+#cuerpo3{text-align: left;height:730px; width:97%; padding:20px 0px; background:#FFF}
 
 
 #contenedorinfo {height:260px; width:100%;background:#FFF}
