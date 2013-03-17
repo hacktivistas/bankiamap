@@ -51,7 +51,7 @@ function dibujaMapa() {
         var title = bankias.getPropertyTitle(clave);
         popup += '<b>'+title+'</b><br />'+feature.properties[clave]+'<br /><br />';
       }
-      popup += '<a href="http://url-del-foro.net/'+feature.properties[bankias.getPropertyName('Teléfono')]+'" class="boton" style="font-size:14px;padding: 6px 12px;">Participa</a>';
+      popup += '<a href="http://dev.democraciarealya.es:8080/vanilla/categories/'+feature.properties[bankias.getPropertyName('idnum')]+'-'+feature.properties[bankias.getPropertyName('Teléfono')]+'" class="boton" style="font-size:14px;padding: 6px 12px;">Participa</a>';
       layer.bindPopup(popup);
     },
     //creamos un marcador personalizado para bankia
