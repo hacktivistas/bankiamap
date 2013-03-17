@@ -45,21 +45,24 @@
 				<h1 class="ribbon">
 					<strong class="ribbon-content"><span id="shit">Estas son nuestras exigencias</span></strong>
 				</h1>
-				</div>
-				
-			</div>
-			<div id="contenedorcuerpo2">
-				<div id="cuerpo2">
 
+				</div>
+
+			</div>
+			<div id="contenedorcuerpo3">
+				<div id="cuerpo3">
 <ol>
-	<li><span id="textcuerpo1">Queremos hacerlo durante toda la jornada</span><br><span id="textcuerpo2">La eficacia está</span></li>
-	<li>List item</li>
-	<li>List item</li>						
+	<li><span id="textcuerpo1">Paralización total de los desahucios y dación en pago retroactiva</span><br><span id="textcuerpo2">o condonación de la deuda a las familias que han sufrido la ejecuación hipotecaria de su primera vivienda.</span></li>
+	<li><span id="textcuerpo1">Utilización para alquiler social de todas las viviendas de Bankia</span><br><span id="textcuerpo2">así como las que han pasado al Sareb (banco malo) provenientes de esta entidad.</span></li>
+	<li><span id="textcuerpo1">Recuperación de las participaciones preferentes</span><br><span id="textcuerpo2">conversión en cuentas corrientes de libre disposición, del ahorro puesto por las familias en participaciones preferentes.</span></li>
+	<li><span id="textcuerpo1">Auditoría ciudadana de la deuda de Bankia</span><br><span id="textcuerpo2">estableciendo mecanismos claros que permitan establecer y negarse al pago de la deuda odiosa siguiendo el modelo de juicio ciudadano. Publicación de la contabilidad de Bankia.</span></li>
+	<li><span id="textcuerpo1">Inversión directa en los presupuestos públicos de sanidad, educación e investigación no militar, de lo que se recupere con la auditoría de la deuda</span></li>
+	<li><span id="textcuerpo1">Nacionalización completa de Bankia</span><br><span id="textcuerpo2">pasando su control integro a manos del Estado y estableciendo mecanismos de transparencia, participación del 99% y democracia directa en su consejo de administración.</span></li>
 </ol>
 
 				</div>
-	
-				
+
+
 			</div>
 	</div>
 	</body>

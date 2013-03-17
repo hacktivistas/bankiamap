@@ -47,6 +47,9 @@ a, a:active, a:focus, a:visited {text-decoration:none;outline: none}
 #contenedorcuerpo2 {height:670px; width:100%;background:#FFF}
 #cuerpo2{margin-left:auto;margin-right:auto;height:630px; width:97%; padding:20px 0px; background:#FFF}
 
+#contenedorcuerpo3 {text-align: center;height:670px; width:100%;background:#FFF}
+#cuerpo3{text-align: left;height:630px; width:97%; padding:20px 0px; background:#FFF}
+
 
 #contenedorinfo {height:260px; width:100%;background:#FFF}
 #info{margin-left:auto;margin-right:auto;height:160px; width:97%; padding:20px 0px; background:#FFF;border: 3px dashed #3C67BC;-moz-border-radius: 3px}                                               
@@ -145,17 +148,11 @@ width: 75%;
 ol {counter-reset: li 0;}
 li { display: inline-block; }
 li:before {
-	content: counter(li) ". ";
+	content: counter(li) " ";
 	counter-increment: li;
-	left: -2.5em;
-	top: 50%;
-	margin-top: -1em;
-	height: 2em;
-	width: 2em;
-	line-height: 2em;
-	text-align: center;
+	line-height: 1.5em;
+	text-align: left;
 	color:#d0d7e7;
-	text-align:center;
 	font-family: UbuntuB;
 	font-size:45px} 
 }
