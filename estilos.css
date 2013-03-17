@@ -68,6 +68,7 @@ a, a:active, a:focus, a:visited {text-decoration:none;outline: none}
 #textbig{color:#1c3876;font-family: UbuntuB;font-size:50px}
 #textfb1{color:#233770;text-align:left;font-family: UbuntuR;font-size:13px} 
 #textop1{color:#8598c0;text-align:center;font-family: UbuntuB;font-size:45px} 
+#shit{color:#8598c0;text-align:center;font-family: UbuntuB;font-size:35px} 
 
 a.one:link {color:#FFFFFF;}
 a.one:visited {color:#1c3876;}
@@ -91,3 +92,97 @@ a.one:hover {color:#1c3876;}
 	background: linear-gradient(to bottom,  #35549f 0%,#2989d8 50%,#207cca 51%,#3c67bc 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#35549f', endColorstr='#3c67bc',GradientType=0 ); /* IE6-9 */
 }
+
+ 
+.ribbon {
+	font-size: 16px !important;
+width: 75%;
+     
+     position: relative;
+     background: #34549f;
+     color: #fff;
+     text-align: center;
+     padding: 1em 2em; /* Adjust to suit */
+     margin: 2em auto 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+    }
+    .ribbon:before, .ribbon:after {
+     content: "";
+     position: absolute;
+     display: block;
+     bottom: -1em;
+     border: 1.5em solid #34549f;
+     z-index: -1;
+    }
+    .ribbon:before {
+     left: -2em;
+     border-right-width: 1.5em;
+     border-left-color: transparent;
+    }
+    .ribbon:after {
+     right: -2em;
+     border-left-width: 1.5em;
+     border-right-color: transparent;
+    }
+    .ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+     content: "";
+     position: absolute;
+     display: block;
+     border-style: solid;
+     border-color: #1e3874 transparent transparent transparent;
+     bottom: -1em;
+    }
+    .ribbon .ribbon-content:before {
+     left: 0;
+     border-width: 1em 0 0 1em;
+    }
+    .ribbon .ribbon-content:after {
+     right: 0;
+     border-width: 1em 1em 0 0;
+    }
+.non-semantic-protector { position: relative; z-index: 1; } 
+
+
+.rectangle-list a{
+	position: relative;
+	display: block;
+	padding: .4em .4em .4em .8em;
+	*padding: .4em;
+	margin: .5em 0 .5em 2.5em;
+	background: #ddd;
+	color: #444;
+	text-decoration: none;
+	transition: all .3s ease-out;	
+}
+
+.rectangle-list a:hover{
+	background: #eee;
+}	
+
+.rectangle-list a:before{
+	content: counter(li);
+	counter-increment: li;
+	position: absolute;	
+	left: -2.5em;
+	top: 50%;
+	margin-top: -1em;
+	height: 2em;
+	width: 2em;
+	line-height: 2em;
+	text-align: center;
+	font-weight: bold;
+}
+
+.rectangle-list a:after{
+	position: absolute;	
+	content: '';
+	border: .5em solid transparent;
+	left: -1em;
+	top: 50%;
+	margin-top: -.5em;
+	transition: all .3s ease-out;				
+}
+
+.rectangle-list a:hover:after{
+	left: -.5em;
+	border-left-color: #fa8072;				
+}	

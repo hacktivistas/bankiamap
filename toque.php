@@ -32,7 +32,7 @@
 					<td width="14%"><a href="operacion.php"><span id="textc21">Operación Toque</span></a></td>
 					<td width="14%"><a href="toque.php"><span id="textc21">Regístrate y participa</span></a></td>
 					<td width="14%"><span id="textc21">Sí se puede</span></td>
-					<td width="14%"><span id="textc21">El rescate</span></td>
+					<td width="14%"><a href="rescate.php"><span id="textc21">El rescate</span></a></td>
 					<td width="14%"><span id="textc21">Accede a tu foro</span></td>
 					<td width="15%">&nbsp;</td>
 				</tr>
