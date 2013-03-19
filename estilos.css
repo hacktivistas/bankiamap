@@ -1,3 +1,32 @@
+@font-face {
+	font-family: "UbuntuR";
+	font-style: normal;
+	font-weight: normal;
+	src: local("?"), url("fonts/Ubuntu-R.woff") format("woff"), url("fonts/Ubuntu-R.ttf") format("truetype");
+}
+
+@font-face {
+        font-family: "UbuntuRI";
+        font-style: italic;
+        font-weight: italic;
+        src: local("?"), url("fonts/Ubuntu-RI.woff") format("woff"), url("fonts/Ubuntu-RI.ttf") format("truetype");
+}
+
+@font-face {
+        font-family: "UbuntuB";
+        font-style: normal;
+        font-weight: normal;
+        src: local("?"), url("fonts/Ubuntu-B.woff") format("woff"), url("fonts/Ubuntu-B.ttf") format("truetype");
+}
+ 
+@font-face {
+        font-family: "UbuntuBI";
+        font-style: italic;
+        font-weight: italic;
+        src: local("?"), url("fonts/Ubuntu-BI.woff") format("woff"), url("fonts/Ubuntu-BI.ttf") format("truetype");
+}
+
+
 body{
 	background:#FFFFFF url(images/px_body.png) repeat-x left top;
 	padding:0;
