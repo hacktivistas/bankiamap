@@ -43,27 +43,57 @@
 						<strong>Te proponemos la primera acción distribuida para paralizar Bankia.</strong> Muchas pequeñas acciones que pueden devolver el control a las personas. ¿Estabas deseando hacer algo y no sabías cómo?</div>
 				  <div class="cinco offset-by-one cols"><div class="apuntateboton sombra"><a href="toque.php">¡Apúntate y participa!</a></div></div>
                   <div class="cortar"></div>
-                    <div id="impacto-grafico" class="sombra"><img src="images/raton-mamon.jpg" alt="rato mamon" /></div>
+                    <div id="impacto-grafico" class="sombra">
+                      <div id="diapos" class="orbit">
+                        <img src="images/01_raton-mamon.jpg" alt="slide image">
+                        <img src="images/02_stopdesahucios.jpg"  alt="slide image">
+                        <img src="images/03_preferentes.jpg" alt="slide image">
+                        <img src="images/04_recortes.jpg" alt="slide image">
+                        <img src="images/05_nuestra.jpg" alt="slide image">
+                      </div>
+                    
+                    </div>
                 </div><!--fin 8 cols-->
                 
                 <div class="cuatro cols">
                   <div id="cajaAvatar" class="bordeBN"><div class="bordeazul">
                     <h3 id="apuntadas">Ya se han apuntado!</h3>
                 	<!-- FACEBOOK-->
-					<div id="fb-root"></div>
-								<script>
-								(function(d, s, id) {
-									var js, fjs = d.getElementsByTagName(s)[0];
-									if (d.getElementById(id)) return;
-									js = d.createElement(s); js.id = id;
-									js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-									fjs.parentNode.insertBefore(js, fjs);
-								}(document, 'script', 'facebook-jssdk'));
-								</script>	
-								<p>
-								<center><div class="fb-like" data-href="http://bankia.mepone.net" data-send="true" data-layout="button_count" data-width="450" data-show-faces="true" data-font="arial" data-action="recommend"></div></center>
-								</p>
-								<div id="fbcontenedor"><div id="fbupdates"><span id="textboton"><center><a class="one" href="http://www.facebook.com/Toque.a.Bankia">&nbsp;<br>Toque a Bankia en FB<br>&nbsp;</a></center></span><a href="http://www.facebook.com/media/set/?set=a.140075842831612.1073741827.127892434049953&type=1"><div id="fbstatus"><img src="images/marcador-bankia.png" width="12"> <span id="textfb1"></span></div></a><a href="http://www.facebook.com/Toque.a.Bankia/posts/223618391112347"><div id="fbstatus"><img src="images/marcador-bankia.png" width="12"> <span id="textfb1">¿Recordáis en Titanic cuando sólo dejaban subir en los botes salvavidas a los viajeros de primera? Pues Bankia hizo lo mismo, salvando a </span></div></a><a href="http://www.facebook.com/Toque.a.Bankia/posts/437762052973675"><div id="fbstatus"><img src="images/marcador-bankia.png" width="12"> <span id="textfb1">Los consumidores han elegido aBankia como la peor empresa del año por goleada. Estaba cantado... Parece que todo el mundo está desea</span></div></a><a href="http://www.facebook.com/Toque.a.Bankia/posts/461858747218660"><div id="fbstatus"><img src="images/marcador-bankia.png" width="12"> <span id="textfb1">Estos banqueros no llevan bien la geografía, quieren atender a sus clientes de Menorca en Mallorca. Vamos a tener que regalarles un mapa, q</span></div></a><a href="http://www.facebook.com/media/set/?set=a.140075842831612.1073741827.127892434049953&type=1"><div id="fbstatus"><img src="images/marcador-bankia.png" width="12"> <span id="textfb1">encuentro de dibujos sobre Toque a Bankia</span></div></a><a href="http://www.facebook.com/Toque.a.Bankia/posts/623642440986113"><div id="fbstatus"><img src="images/marcador-bankia.png" width="12"> <span id="textfb1">Al tercer impago Bankia te desahucia, mientras que ellos deben 256 millones de impagos a las comunidades de vecinos. </span></div></a></div></div><!--Fin FB-->
+                    <div id="registros">
+                      <div class="registro" id="">
+                        <div class="img_usuaria"></div>
+                        <div class="datos_usuaria"><h5>Nick</h5><p>C/ Fray Bernardino Sahagún nº 237</p><p>Ciudad, Of. nº YY</p></div>
+                      </div>
+                      <div class="registro" id="">
+                        <div class="img_usuaria"></div>
+                        <div class="datos_usuaria"><h5>Nick</h5><p>C/ Dirección xx</p><p>Ciudad, Of. nº YY</p></div>
+                      </div>
+                      <div class="registro" id="">
+                        <div class="img_usuaria"></div>
+                        <div class="datos_usuaria"><h5>Nick</h5><p>C/ Dirección xx</p><p>Ciudad, Of. nº YY</p></div>
+                      </div>
+                      <div class="registro" id="">
+                        <div class="img_usuaria"></div>
+                        <div class="datos_usuaria"><h5>Nick</h5><p>C/ Dirección xx</p><p>Ciudad, Of. nº YY</p></div>
+                      </div>
+                      <div class="registro" id="">
+                        <div class="img_usuaria"></div>
+                        <div class="datos_usuaria"><h5>Nick</h5><p>C/ Dirección xx</p><p>Ciudad, Of. nº YY</p></div>
+                      </div>
+                      <div class="registro" id="">
+                        <div class="img_usuaria"></div>
+                        <div class="datos_usuaria"><h5>Nick</h5><p>C/ Dirección xx</p><p>Ciudad, Of. nº YY</p></div>
+                      </div>
+                      <div class="registro" id="">
+                        <div class="img_usuaria"></div>
+                        <div class="datos_usuaria"><h5>Nick</h5><p>C/ Dirección xx</p><p>Ciudad, Of. nº YY</p></div>
+                      </div>
+                      
+                      <div class="cortar"></div>
+                    </div>
+					<!--Fin FB-->
+                    
+                    
                    </div><!--fin bordeazul--></div><!--Fin bordeBN -->
                 </div><!--fin 4 cols-->
 				<div class="cortar"></div>
@@ -88,5 +118,28 @@
         			
 	</div><!--Fin Principal-->
     <div id="pie"> </div>
+    
+    
+     
+  <script src="js/jquery.js"></script>
+  <script src="js/modernizr.foundation.js"></script>
+  <script src="js/jquery.foundation.orbit.js"></script>
+
+
+  
+      <script>
+		$(window).load(function(){
+		  $("#diapos").orbit({ 
+			timer:true,
+			pauseOnHover: true,                // if you hover pauses the slider
+			startClockOnMouseOut:true,        // if clock should start on MouseOut
+			startClockOnMouseOutAfter: 1000,
+			directionalNav: true,
+			bullets: false,  
+			fluid: '16x9' 
+		  });
+		});
+    </script> 
+    
 	</body>
 </html>
