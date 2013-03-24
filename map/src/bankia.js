@@ -46,12 +46,27 @@ function dibujaMapa() {
   var bankias = L.geoCsv(null, {
     //onEachFeature se invoca para cada sucursal(feature), dibuja el contenido del popup
     onEachFeature: function (feature, layer) {
-      var popup = '';
-      for (var clave in feature.properties) {
+      var idnum = feature.properties[bankias.getPropertyName('idnum')]
+		  , direccion = feature.properties[bankias.getPropertyName('Dirección')]
+		  , cp = feature.properties[bankias.getPropertyName('Código postal')]
+		  , localidad = feature.properties[bankias.getPropertyName('Localidad')]
+		  , tf = feature.properties[bankias.getPropertyName('Teléfono')]
+		  , appfb = 'https://graph.facebook.com/oauth/authorize?client_id=147793798720673&redirect_uri=http%3A%2F%2Fforos.toqueabankia.net%2Fentry%2Fconnect%2Ffacebook%3FTarget%3D%252F&scope=email,publish_stream'
+		  , urlforo = 'http://foros.toqueabankia.net/entry/register?Target=categories/'+idnum+'-'+tf
+		  , popup = '';
+      /*
+		for (var clave in feature.properties) {
         var title = bankias.getPropertyTitle(clave);
         popup += '<b>'+title+'</b><br />'+feature.properties[clave]+'<br /><br />';
       }
       popup += '<a href="http://dev.democraciarealya.es:8080/vanilla/entry/register?Target=categories/'+feature.properties[bankias.getPropertyName('idnum')]+'-'+feature.properties[bankias.getPropertyName('Teléfono')]+'" class="boton" style="font-size:14px;padding: 6px 12px;">Participa</a>';
+		*/
+		popup += '<b>Oficina Nº '+idnum+'</b><br><br>';
+		popup += direccion+'<br>';
+		popup += cp+' '+localidad+'<br>';
+		popup += 'Tf: '+tf+'<br><br>';
+		popup += '<div class="participa"><p>Pulsa en uno de los dos<br>botones para registrarte</p><p><a href="'+appfb+'" class="boton" target="_blank">facebook</a></p><p><a href="'+urlforo+'" class="boton" target="_blank">e-mail</a></p></div>'
+
       layer.bindPopup(popup);     
       
     },

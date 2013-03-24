@@ -1,3 +1,6 @@
+/* Fuente: Ubuntu desde google.com/webfonts */
+@import url(//fonts.googleapis.com/css?family=Ubuntu:400,400italic,500,500italic,700,700italic);
+
 /*
  * Leaflet 0.5: https://github.com/CloudMade/Leaflet 
  */
@@ -188,7 +191,7 @@
 
 /* general typography */
 .leaflet-container {
-	font: 12px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
+	font: 12px/1.5 "Ubuntu", "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 
 
@@ -374,6 +377,7 @@
 	}
 .leaflet-popup-content p {
 
+
 	margin: 18px 0;
 	}
 .leaflet-popup-tip-container {
@@ -491,12 +495,19 @@
  * Bankia
  */
 
+/* Fuente: Ubuntu desde google.com/webfonts 
+@import url(//fonts.googleapis.com/css?family=Ubuntu:400,400italic,500,500italic,700,700italic);*/
+
+.leaflet-container {
+	font: 12px/1.5 "Ubuntu", "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
 html, body, #mapa {
 	margin: 0;
 	padding: 0;
 	width: 100%;
 	height: 100%;	
-	font-family: Arial, sans-serif;
+	font-family: "Ubuntu", Arial, sans-serif;
 	font-color: #38383;
 }
 
@@ -522,12 +533,20 @@ html, body, #mapa {
 
 .boton {
 	border: 1px solid #96d1f8;
+/*
 	background: #65a9d7;
 	background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
 	background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
 	background: -moz-linear-gradient(top, #3e779d, #65a9d7);
 	background: -ms-linear-gradient(top, #3e779d, #65a9d7);
 	background: -o-linear-gradient(top, #3e779d, #65a9d7);
+*/
+	background: #3C67BC;
+	background: -webkit-gradient(linear, left top, left bottom, from(#35549F), to(#3C67BC));
+	background: -webkit-linear-gradient(top, #35549F 40%, #3C67BC 100%);
+	background: -moz-linear-gradient(top, #35549F 40%, #3C67BC 100%);
+	background: -ms-linear-gradient(top, #35549F 40%, #3C67BC 100%);
+	background: -o-linear-gradient(top, #35549F 40%, #3C67BC 100%);
 	padding: 12px 24px;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -542,11 +561,30 @@ html, body, #mapa {
 	vertical-align: middle;
 }
 .boton:hover {
-	border-top-color: #28597a;
+	/*border-top-color: #28597a;
 	background: #28597a;
-	color: #ccc;
+	color: #ccc;*/
+	background: #65a9d7;
 }
+/*
 .boton:active {
 	border-top-color: #1b435e;
 	background: #1b435e;
+}*/
+.participa {
+	background-color:#f3f5f9;
+	color:#35549f;
+	font-weight:bold;
+	margin:0 -20px -14px -20px;
+	border-top:1px solid #7d879f;
+	padding: 0 20px 10px 20px;
+	-webkit-border-bottom-left-radius: 20px;
+	-webkit-border-bottom-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+.participa a.boton {
+	display:block;
+	padding:5px;
+	width:85%;
 }
