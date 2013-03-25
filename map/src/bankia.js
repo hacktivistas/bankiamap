@@ -76,8 +76,8 @@ function dibujaMapa() {
 		  , cp = feature.properties[bankias.getPropertyName('Código postal')]
 		  , localidad = feature.properties[bankias.getPropertyName('Localidad')]
 		  , tf = feature.properties[bankias.getPropertyName('Teléfono')]
-		  , appfb = 'https://graph.facebook.com/oauth/authorize?client_id=147793798720673&redirect_uri=http%3A%2F%2Fforos.toqueabankia.net%2Fentry%2Fconnect%2Ffacebook%3FTarget%3D%252F&scope=email,publish_stream'
-		  , urlforo = 'http://foros.toqueabankia.net/entry/register?Target=categories/'+idnum+'-'+tf
+		  , appfb = 'https://graph.facebook.com/oauth/authorize?client_id=147793798720673&redirect_uri=http://foros.toqueabankia.net/entry/connect/facebook%3FTarget%3D%252Fcategories%252f'+idnum+'-'+tf+'&scope=email,publish_stream'
+		  , urlforo = 'http://foros.toqueabankia.net/entry/register?Target=categories%252f'+idnum+'-'+tf
 		  , popup = '';
       /*
 		for (var clave in feature.properties) {
