@@ -403,6 +403,7 @@ h3#apuntadas{
 }
 
 
+
 .apuntateboton{
 	width:70%;
 	padding:10px 15px;
@@ -568,7 +569,7 @@ h2#baner{
 	margin-top:0;
 	margin-bottom:25px;
 }
-.num{
+#listaexigencias div.num {
 	float:left;
 	font: 50px 'UbuntuBold', Arial, sans-serif;	
 	color:#C1CBE0;
@@ -683,5 +684,10 @@ div.orbit, div.orbit-wrapper { width: 100% !important; }
   }
 	
 
+#listaYoutube, #galeriaFotos{
+	width:100%;
+	text-align:center;
+	padding:20px 0;
+}
 	
 /*Fin estilos Mar*/

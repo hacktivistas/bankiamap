@@ -29,7 +29,7 @@
               <ul>
                 <li><a href="operacion.php"><span id="textc21">Operación Toque</span></a></li>
                 <li><a href="toque.php"><span id="textc21">Regístrate y participa</span></a></li>
-                <li><span id="textc21">Sí se puede</span></li>
+                <li><a href="sisepuede.php"><span id="textc21">Sí se puede</span></a></li>
                 <li><a href="rescate.php"><span id="textc21">El rescate</span></a></li>
                 <li><span id="textc21">Accede a tu foro</span></td>
 			  </ul>
