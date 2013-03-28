@@ -78,6 +78,7 @@ function dibujaMapa() {
 		  , tf = feature.properties[bankias.getPropertyName('Teléfono')]
 		  , appfb = 'https://graph.facebook.com/oauth/authorize?client_id=147793798720673&redirect_uri=http://foros.toqueabankia.net/entry/connect/facebook%3FTarget%3D%252Fcategories%252f'+idnum+'-'+tf+'&scope=email,publish_stream'
 		  , urlforo = 'http://foros.toqueabankia.net/entry/register?Target=categories%252f'+idnum+'-'+tf
+		  , urlsucursal = 'http://foros.toqueabankia.net/categories%252f'+idnum+'-'+tf
 		  , popup = '';
       /*
 		for (var clave in feature.properties) {
@@ -86,7 +87,7 @@ function dibujaMapa() {
       }
       popup += '<a href="http://dev.democraciarealya.es:8080/vanilla/entry/register?Target=categories/'+feature.properties[bankias.getPropertyName('idnum')]+'-'+feature.properties[bankias.getPropertyName('Teléfono')]+'" class="boton" style="font-size:14px;padding: 6px 12px;">Participa</a>';
 		*/
-		popup += '<b>Oficina Nº '+idnum+'</b><br><br>';
+		popup += '<b><a href="'+urlsucursal+'">Oficina Nº '+idnum+'</a></b><br><br>';
 		popup += direccion+'<br>';
 		popup += cp+' '+localidad+'<br>';
 		popup += 'Tf: '+tf+'<br><br>';
