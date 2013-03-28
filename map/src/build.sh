@@ -14,8 +14,8 @@ set -e
 SCRIPTPATH=$( cd $(dirname $0) ; pwd -P)
 cd "$SCRIPTPATH"
 echo "Minimizando CSS..."
-cleancss -b -o ../estilos.css estilos.css
-cleancss -b -o ../estilos.ie.css estilos.ie.css
+#cleancss -b -o ../estilos.css estilos.css
+#cleancss -b -o ../estilos.ie.css estilos.ie.css
 echo "Minimizando JS..."
 uglifyjs bankia.js > ../bankia.js
 cd ..

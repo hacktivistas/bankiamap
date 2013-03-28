@@ -87,7 +87,7 @@ function dibujaMapa() {
       }
       popup += '<a href="http://dev.democraciarealya.es:8080/vanilla/entry/register?Target=categories/'+feature.properties[bankias.getPropertyName('idnum')]+'-'+feature.properties[bankias.getPropertyName('Teléfono')]+'" class="boton" style="font-size:14px;padding: 6px 12px;">Participa</a>';
 		*/
-		popup += '<b><a href="'+urlsucursal+'">Oficina Nº '+idnum+'</a></b><br><br>';
+		popup += '<b><a href="'+urlsucursal+'" target="_blank">Oficina Nº '+idnum+'</a></b><br><br>';
 		popup += direccion+'<br>';
 		popup += cp+' '+localidad+'<br>';
 		popup += 'Tf: '+tf+'<br><br>';
