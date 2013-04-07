@@ -57,7 +57,7 @@ function dibujaMapa() {
 		popup += direccion+'<br>';
 		popup += cp+' '+localidad+'<br>';
 		popup += 'Tf: '+tf+'<br><br>';
-		popup += '<div class="participa"><p><a href="'+urlsucursal+'" class="boton">Ver Foro</a></p></div>';
+		popup += '<div class="participa"><p><a href="'+urlsucursal+'" class="boton" target="_parent">Ver Foro</a></p></div>';
 
       layer.bindPopup(popup);      
     },
