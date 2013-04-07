@@ -18,12 +18,15 @@ echo "Minimizando CSS..."
 #cleancss -b -o ../estilos.ie.css estilos.ie.css
 echo "Minimizando JS..."
 uglifyjs bankia.js > ../bankia.js
+uglifyjs foros-bankia.js > ../foros-bankia.js
 cd ..
 echo "GZIPeando..."
 gzip -c -9 index.html > index.html.gz
+gzip -c -9 foros.html > foros.html.gz
 gzip -c -9 estilos.css > estilos.css.gz
 gzip -c -9 estilos.ie.css > estilos.ie.css.gz
 gzip -c -9 bankia.js > bankia.js.gz
+gzip -c -9 foros-bankia.js > foros-bankia.js.gz
 # Para que funcione el gzip estático de nginx los archivos tiene que tener la misma marca de tiempo
 touch *
 echo "Web comprimida con éxito"

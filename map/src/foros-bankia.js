@@ -35,31 +35,6 @@ yepnope([{
   }
 }]);
 
-// http://theproc.es/2011/1/5/10448/crea-y-modifica-las-cookies-de-tu-navegador-con-javascript
-var galleta = {
-  nueva: function(name, value, days) {
-    if (days) {
-      var date = new Date();
-      date.setTime(date.getTime()+(days*24*60*60*1000));
-      var expires = "; expires="+date.toGMTString();
-    }else var expires = "";
-      document.cookie = name+"="+value+expires+"; path=/";
-  },
-  leer: function(name) {
-    var nameEQ = name + "=";
-    var ca = document.cookie.split(';');
-    for(var i=0;i < ca.length;i++) {
-      var c = ca[i];
-      while (c.charAt(0)==' ') c = c.substring(1,c.length);
-      if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
-    }
-    return null;
-  },
-  borrar: function(name) {
-    galleta.nueva(name,"",-1);
-  }
-};
-
 function dibujaMapa() {
 
   var mapa = L.map('mapa', {attributionControl:false}).setView([40.46, -3.75], 5);
@@ -78,18 +53,11 @@ function dibujaMapa() {
 		  , tf = feature.properties[bankias.getPropertyName('Teléfono')]
 		  , urlsucursal = 'http://pruebas.toqueabankia.net/categories/oficina-'+idnum
 		  , popup = '';
-      /*
-		for (var clave in feature.properties) {
-        var title = bankias.getPropertyTitle(clave);
-        popup += '<b>'+title+'</b><br />'+feature.properties[clave]+'<br /><br />';
-      }
-      popup += '<a href="http://dev.democraciarealya.es:8080/vanilla/entry/register?Target=categories/'+feature.properties[bankias.getPropertyName('idnum')]+'-'+feature.properties[bankias.getPropertyName('Teléfono')]+'" class="boton" style="font-size:14px;padding: 6px 12px;">Participa</a>';
-		*/
 		popup += '<b><a href="'+urlsucursal+'" target="_blank">Oficina Nº '+idnum+'</a></b><br><br>';
 		popup += direccion+'<br>';
 		popup += cp+' '+localidad+'<br>';
 		popup += 'Tf: '+tf+'<br><br>';
-		popup += '<div class="participa"><p><a href="'+urlsucursal+'" class="boton" target="_blank">Foro</a></p></div>';
+		popup += '<div class="participa"><p><a href="'+urlsucursal+'" class="boton">Ver Foro</a></p></div>';
 
       layer.bindPopup(popup);      
     },
@@ -124,23 +92,8 @@ function dibujaMapa() {
       var cluster = new L.MarkerClusterGroup();
       cluster.addLayer(bankias);
       mapa.addLayer(cluster);
-      //si ha visitado antes la página existirá la cookie posicionMapa
-      var pos = galleta.leer('posicionMapa');
-      if (pos == null) {
-        //ajustamos el mapa mostrado a los bordes del cluster
-        mapa.fitBounds(cluster.getBounds());
-      } else {
-        pos = pos.split('&');
-        if (pos.length == 3) {
-          if (confirm("¿Quiere continuar navegando por el mapa desde el punto que lo dejó?")) {
-            //si el usuario confirma, nos movemos a la posición guardada en la cookie
-            mapa.setView([parseFloat(pos[0]),parseFloat(pos[1])],parseInt(pos[2]));
-          } else {
-            //en caso contrario mostramos los bordes del cluster
-            mapa.fitBounds(cluster.getBounds());
-          }
-        }
-      }     
+      //ajustamos el mapa mostrado a los bordes del cluster
+      mapa.fitBounds(cluster.getBounds());   
     },
     complete: function() {
       //desvanecemos la capa "Cargando..."
@@ -157,11 +110,5 @@ function dibujaMapa() {
       $('#localizame').text('Bankias cercanos');
     });
   });
-
-  window.onbeforeunload = function() {
-    var centro = mapa.getCenter()
-      , zoom = mapa.getZoom();
-    galleta.nueva('posicionMapa',centro.lat+'&'+centro.lng+'&'+zoom,10);
-  }
 
 }
