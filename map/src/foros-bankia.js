@@ -51,7 +51,7 @@ function dibujaMapa() {
 		  , cp = feature.properties[bankias.getPropertyName('Código postal')]
 		  , localidad = feature.properties[bankias.getPropertyName('Localidad')]
 		  , tf = feature.properties[bankias.getPropertyName('Teléfono')]
-		  , urlsucursal = 'http://pruebas.toqueabankia.net/categories/oficina-'+idnum
+		  , urlsucursal = 'http://foros.toqueabankia.net/categories/oficina-'+idnum
 		  , popup = '';
 		popup += '<b><a href="'+urlsucursal+'" target="_blank">Oficina Nº '+idnum+'</a></b><br><br>';
 		popup += direccion+'<br>';
