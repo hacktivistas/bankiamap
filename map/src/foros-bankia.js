@@ -93,7 +93,7 @@ function dibujaMapa() {
       cluster.addLayer(bankias);
       mapa.addLayer(cluster);
       //ajustamos el mapa mostrado a los bordes del cluster
-      mapa.fitBounds(cluster.getBounds());   
+      //mapa.fitBounds(cluster.getBounds());   
     },
     complete: function() {
       //desvanecemos la capa "Cargando..."
