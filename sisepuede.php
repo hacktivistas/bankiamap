@@ -33,7 +33,7 @@
 					<li><a href="toque.php"><span id="textc21">Regístrate y participa</span></a></li>
 					<li><a href="sisepuede.php"><span id="textc21">Sí se puede</span></a></li>
 					<li><a href="rescate.php"><span id="textc21">El rescate</span></a></li>
-					<li><span id="textc21">Accede a tu foro</span></td>
+					<li><a href="http://foros.toqueabankia.net" target="_blank"><span id="textc21">Accede a tu foro</span></a></li>
 				</ul>
 			</div><!--Fin cabecera 2-->
 			
