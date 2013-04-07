@@ -691,3 +691,21 @@ div.orbit, div.orbit-wrapper { width: 100% !important; }
 }
 	
 /*Fin estilos Mar*/
+.derecha {
+    text-align: right;
+}
+.izquierda {
+    text-align: left;
+}
+#fb {
+    margin-right: 58px;
+}
+#tw {
+    margin-left: 18px;
+}
+.entremete {
+    margin-top: -10px;
+}
+.contadores {
+	margin-top: -5px;
+}
