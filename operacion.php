@@ -13,8 +13,8 @@
 		<link rel="stylesheet" href="estilos.css" />
 		<meta property="og:title" content="Toque a Bankia" />
 		<meta property="og:type" content="cause" />
-		<meta property="og:url" content="http://bankia.mepone.net" />
-		<meta property="og:image" content="http://bankia.mepone.net/images/TAB_logoWeb.png" />
+		<meta property="og:url" content="http://toqueabankia.net" />
+		<meta property="og:image" content="http://toqueabankia.net/images/TAB_logoWeb.png" />
 		<meta property="og:site_name" content="Dale un toque a Bankia" />
 		<meta property="fb:admins" content="100003745894955" />
 		<!--[if lte IE 8]> <link rel="stylesheet" href="estilos.ie.css" />  <![endif]-->  
