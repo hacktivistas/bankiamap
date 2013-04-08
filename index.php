@@ -2,7 +2,7 @@
 <html lang="es">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-		<meta http-equiv="Content-Language" CONTENT="en"/>
+		<meta http-equiv="Content-Language" CONTENT="es"/>
 		<meta name="author" CONTENT="Brankia S.A."/>
 		<meta name="copyitright" CONTENT="Brankia S.A., 2012. Rato. Todos los derechos en los reservados."/>
 		<meta name="title" CONTENT="Bankia"/>
@@ -61,35 +61,6 @@
                     <h3 id="apuntadas">Ya se han apuntado!</h3>
                 	<!-- FACEBOOK-->
                     <div id="registros">
-                      <div class="registro" id="">
-                        <div class="img_usuaria"></div>
-                        <div class="datos_usuaria"><h5>Nick</h5><p>C/ Fray Bernardino Sahagún nº 237</p><p>Ciudad, Of. nº YY</p></div>
-                      </div>
-                      <div class="registro" id="">
-                        <div class="img_usuaria"></div>
-                        <div class="datos_usuaria"><h5>Nick</h5><p>C/ Dirección xx</p><p>Ciudad, Of. nº YY</p></div>
-                      </div>
-                      <div class="registro" id="">
-                        <div class="img_usuaria"></div>
-                        <div class="datos_usuaria"><h5>Nick</h5><p>C/ Dirección xx</p><p>Ciudad, Of. nº YY</p></div>
-                      </div>
-                      <div class="registro" id="">
-                        <div class="img_usuaria"></div>
-                        <div class="datos_usuaria"><h5>Nick</h5><p>C/ Dirección xx</p><p>Ciudad, Of. nº YY</p></div>
-                      </div>
-                      <div class="registro" id="">
-                        <div class="img_usuaria"></div>
-                        <div class="datos_usuaria"><h5>Nick</h5><p>C/ Dirección xx</p><p>Ciudad, Of. nº YY</p></div>
-                      </div>
-                      <div class="registro" id="">
-                        <div class="img_usuaria"></div>
-                        <div class="datos_usuaria"><h5>Nick</h5><p>C/ Dirección xx</p><p>Ciudad, Of. nº YY</p></div>
-                      </div>
-                      <div class="registro" id="">
-                        <div class="img_usuaria"></div>
-                        <div class="datos_usuaria"><h5>Nick</h5><p>C/ Dirección xx</p><p>Ciudad, Of. nº YY</p></div>
-                      </div>
-                      
                       <div class="cortar"></div>
                     </div>
 					<!--Fin FB-->
@@ -154,6 +125,36 @@
 			fluid: '16x9' 
 		  });
 		});
+
+$(function() {
+
+$.ajax({
+	cache: false,
+	url: 'http://foros.toqueabankia.net/lusers.txt',
+	dataType: 'text',
+	success: function(usuarios) {
+		var registro = ''
+		  , lineas = usuarios.split('\n');
+		for (i=0; i<lineas.length; i++) {
+			usuarios = lineas[i].split(';');
+			if (usuarios.length == 4) {
+			//8; Simon Munoz Pinero; //graph.facebook.com/100002450191482/picture?type=large; 0
+				var img = ''
+				  , enlace_oficina = '<a href="http://foros.toqueabankia.net/categories/oficina-'+usuarios[3]+'">Oficina '+usuarios[3]+'</a>';
+				if (usuarios[2].trim() != 'NULL') img='<img src="'+usuarios[2]+'" width="52" height="52" alt="Avatar '+usuarios[1]+'">';
+				registro += '<div class="registro"><div class="img_usuaria">'+img+'</div><div class="datos_usuaria"><h5>'+usuarios[1]+'</h5><p>Ahora forma parte del grupo de acción de la '+enlace_oficina+'</p></div></div>';
+				$('#registros').append(registro);
+				registro = '';
+			}
+		}
+	}
+});
+
+
+
+});
+
+
     </script> 
     
 	</body>
