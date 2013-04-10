@@ -82,7 +82,8 @@
 	position: fixed;
 	top: 10px;
 	left: 50px;
-	z-index: 2}
+	z-index: 2
+}
 
 #cargando {
 	position: fixed;
@@ -93,37 +94,41 @@
 	background: #433128;
 	color: #fff;
 	font-size: 2em;
-	z-index: 10}
+	z-index: 10
+}
 
 .boton {
 	border: 1px solid #96d1f8;
 	background: #65a9d7;
 	background: -webkit-gradient(linear,left top,left bottom,from(#3e779d),to(#65a9d7));
 	background: -webkit-linear-gradient(top,#3e779d,#65a9d7);
-	background: -moz-linear-gradient(top,#3e779d,#65a9d7);
-	background: -ms-linear-gradient(top,#3e779d,#65a9d7);
-	background: -o-linear-gradient(top,#3e779d,#65a9d7);
+	background:    -moz-linear-gradient(top,#3e779d,#65a9d7);
+	background:     -ms-linear-gradient(top,#3e779d,#65a9d7);
+	background:      -o-linear-gradient(top,#3e779d,#65a9d7);
 	padding: 12px 24px;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
 	border-radius: 10px;
-	-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
-	-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	-webkit-border-radius: 10px;
+	   -moz-border-radius: 10px;
 	box-shadow: rgba(0,0,0,1) 0 1px 0;
+	-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
 	text-shadow: rgba(0,0,0,.4) 0 1px 0;
 	color: #fff!important;
 	font-size: 17px;
 	text-decoration: none;
-	vertical-align: middle}
+	vertical-align: middle
+}
 
 .boton:hover {
 	border-top-color: #28597a;
 	background: #28597a;
-	color: #ccc}
+	color: #ccc
+}
 
 .boton:active {
 	border-top-color: #1b435e;
-	background: #1b435e}
+	background: #1b435e
+}
 
 /*estilos Mar*/
 body {
@@ -131,28 +136,48 @@ body {
 	padding: 0;
 	margin: 0;
 	text-align: center;
-	font: 16px 'UbuntuRegular', Arial, sans-serif;
+	/*font: 16px 'UbuntuRegular', Arial, sans-serif;*/
+	font-family: 'Ubuntu', Arial, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
 	color: #000;
 }
 
 strong, b {
-	font: 16px 'UbuntuBold', Arial, sans-serif;
+	/* font: 16px 'UbuntuBold', Arial, sans-serif; */
+	font-family: 'Ubuntu', Arial, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
 }
 
 h1#textc30 {
-	font: 37px 'UbuntuBoldItalic', Arial, sans-serif;
+	/* font: 37px 'UbuntuBoldItalic', Arial, sans-serif; */
+	font-family: 'Ubuntu', Arial, sans-serif;
+	font-size: 37px;
+	font-style: normal;
+	font-weight: 700;
 	color: #213773;
 	margin-top: 12px;
 }
 
 h1 {
-	font: 35px 'UbuntuBold', Arial, sans-serif;
+	/* font: 35px 'UbuntuBold', Arial, sans-serif; */
+	font-family: 'Ubuntu', Arial, sans-serif;
+	font-size: 35px;
+	font-style: normal;
+	font-weight: 700;
 	color: #213773;
 	margin-top: 12px;
 }
 
 h2 {
-	font: 25px 'UbuntuBold', Arial, sans-serif;
+	/* font: 25px 'UbuntuBold', Arial, sans-serif; */
+	font-family: 'Ubuntu', Arial, sans-serif;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 700;
 	color: #213773;
 	margin-top: 30px;
 	margin-bottom: 0;
@@ -207,7 +232,11 @@ a, a:active, a:focus, a:visited {
 }
 
 #cabecera2, #cabecera2 a, #cabecera2 a:link, #cabecera2 a:visited {
-	font: 13px 'UbuntuRegular', Arial, sans-serif;
+	/* font: 13px 'UbuntuRegular', Arial, sans-serif; */
+	font-family: 'Ubuntu', Arial, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 700;
 	color: #FFF;
 }
 
@@ -256,7 +285,11 @@ ul#procesotx li {
 }
 
 ul#procesotx li li {
-	font: 15px 'UbuntuMedium', Arial, sans-serif;
+	/* font: 15px 'UbuntuMedium', Arial, sans-serif; */
+	font-family: 'Ubuntu', Arial, sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
 	color: #213773;
 	width: auto;
 	text-align: left;
@@ -264,7 +297,11 @@ ul#procesotx li li {
 }
 
 ul#procesotx li li.num {
-	font: 45px 'UbuntuBold', Arial, sans-serif;
+	/* font: 45px 'UbuntuBold', Arial, sans-serif; */
+	font-family: 'Ubuntu', Arial, sans-serif;
+	font-size: 45px;
+	font-style: normal;
+	font-weight: 700;
 	color: #C1CBE0;
 	margin-right: 5px;
 }
@@ -287,10 +324,10 @@ ul#procesotx li ul {
 
 #info .margeni15 {
 	box-sizing: border-box;
-	-moz-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
-	-o-box-sizing: border-box;
-	-ms-box-sizing: border-box;
+	     -o-box-sizing: border-box;
+	    -ms-box-sizing: border-box;
 	padding: 0 15px;
 }
 
@@ -325,7 +362,11 @@ ul#procesotx li ul {
 h3#apuntadas {
 	background-color: #8498C1;
 	color: #FFFFFF;
-	font: 19px 'UbuntuMedium', Arial, sans-serif;
+	/* font: 19px 'UbuntuMedium', Arial, sans-serif; */
+	font-family: 'Ubuntu', Arial, sans-serif;
+	font-size: 19px;
+	font-style: normal;
+	font-weight: 400;
 	margin: 0;
 	padding: 7px 15px;
 }
@@ -336,10 +377,10 @@ h3#apuntadas {
 	margin-top: 5px;
 	text-align: center;
 	border-radius: 3px;
-	-moz-border-radius: 3px;
+	   -moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
-	-o-border-radius: 3px;
-	-ms-border-radius: 3px;
+	     -o-border-radius: 3px;
+	    -ms-border-radius: 3px;
 	background-image: linear-gradient(top, #35549F 40%, #3C67BC 100%);
 	background-image: -o-linear-gradient(top, #35549F 40%, #3C67BC 100%);
 	background-image: -moz-linear-gradient(top, #35549F 40%, #3C67BC 100%);
@@ -400,9 +441,9 @@ h3#apuntadas {
 
 .sombra {
 	box-shadow: 2px 2px 3px #999999;
-	-moz-box-shadow: 2px 2px 3px #999999;
+	   -moz-box-shadow: 2px 2px 3px #999999;
 	-webkit-box-shadow: 2px 2px 3px #999999;
-	-o--box-shadow: 2px 2px 3px #999999;
+	    -o--box-shadow: 2px 2px 3px #999999;
 }
 
 .vineta {
@@ -443,7 +484,11 @@ h3#apuntadas {
 /*nuevos estilos pag operación, el rescate, etc*/
 #baner {
 	color: #8498C1;
-	font: 40px 'UbuntuBold', Arial, sans-serif;
+	/* font: 40px 'UbuntuBold', Arial, sans-serif; */
+	font-family: 'Ubuntu', Arial, sans-serif;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 700;
 	text-align: center;
 	width: 100%;
 }
@@ -474,7 +519,11 @@ h3#apuntadas {
 }
 
 h3 {
-	font: 22px 'UbuntuBold', Arial, sans-serif;
+	/* font: 22px 'UbuntuBold', Arial, sans-serif; */
+	font-family: 'Ubuntu', Arial, sans-serif;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 700;
 	color: #213773;
 	margin-bottom: 17px;
 }
@@ -517,7 +566,11 @@ h2#baner {
 
 #listaexigencias div.num {
 	float: left;
-	font: 50px 'UbuntuBold', Arial, sans-serif;
+	/* font: 50px 'UbuntuBold', Arial, sans-serif; */
+	font-family: 'Ubuntu', Arial, sans-serif;
+	font-size: 50px;
+	font-style: normal;
+	font-weight: 700;
 	color: #C1CBE0;
 	margin-right: 10px;
 }
@@ -567,7 +620,11 @@ h2#baner {
 .datos_usuaria h5 {
 	font-size: 12px;
 	margin: 3px 0;
-	font: 12px 'UbuntuMedium', Arial, sans-serif;
+	/* font: 12px 'UbuntuMedium', Arial, sans-serif; */
+	font-family: 'Ubuntu', Arial, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
 }
 
 /* Estilos carrusel*/

@@ -1,119 +1,911 @@
-#botonera{position:fixed;top:10px;left:50px;z-index:2}
-#cargando{position:fixed;top:10px;left:900px;width:10px;height:20px;background:#433128;color:#fff;font-size:2em;z-index:10}
-.boton{border:1px solid #96d1f8;background:#65a9d7;background:-webkit-gradient(linear,left top,left bottom,from(#3e779d),to(#65a9d7));background:-webkit-linear-gradient(top,#3e779d,#65a9d7);background:-moz-linear-gradient(top,#3e779d,#65a9d7);background:-ms-linear-gradient(top,#3e779d,#65a9d7);background:-o-linear-gradient(top,#3e779d,#65a9d7);padding:12px 24px;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;-webkit-box-shadow:rgba(0,0,0,1) 0 1px 0;-moz-box-shadow:rgba(0,0,0,1) 0 1px 0;box-shadow:rgba(0,0,0,1) 0 1px 0;text-shadow:rgba(0,0,0,.4) 0 1px 0;color:#fff!important;font-size:17px;text-decoration:none;vertical-align:middle}
-.boton:hover{border-top-color:#28597a;background:#28597a;color:#ccc}
-.boton:active{border-top-color:#1b435e;background:#1b435e}
-body{background:#FFF url(images/px_body.png) repeat-x left top;padding:0;margin:0;text-align:center;font:16px UbuntuRegular,Arial,sans-serif;color:#000}
-strong,b{font:16px UbuntuBold,Arial,sans-serif}
-h1#textc30{font:37px UbuntuBoldItalic,Arial,sans-serif;color:#213773;margin-top:12px}
-h1{font:35px UbuntuBold,Arial,sans-serif;color:#213773;margin-top:12px}
-h2{font:25px UbuntuBold,Arial,sans-serif;color:#213773;margin-top:30px;margin-bottom:0}
-#principal{width:960px;margin:0 auto;padding:0}
-#contenedormapa1{height:400px;width:100%;background:#FFF;text-align:center;padding:15px;margin-bottom:20px}
-#contenedormapa2{margin-left:auto;margin-right:auto;height:400px;width:auto;background:#FFF}
-iframe{border:0;height:400px}
-#mapa{height:100%;width:100%;padding:0}
-a,a:active,a:focus,a:visited{text-decoration:none;outline:0}
-#cabecera{padding:0;width:100%}
-#cabecera2{padding:0;margin-top:5px;width:100%;height:35px}
-#cabecera2,#cabecera2 a,#cabecera2 a:link,#cabecera2 a:visited{font:13px UbuntuRegular,Arial,sans-serif;color:#FFF}
-#cabecera2 ul{list-style:none;width:auto;margin:0;padding:0 70px}
-#cabecera2 li{width:auto;margin:0 15px;display:inline}
-#cabecera3{text-align:left;padding:0;width:100%}
-#cabecera3 ul{list-style:none;width:auto;margin:0;padding:0 5px;text-align:center}
-#cabecera3 li{width:auto;margin:0 26px;display:inline-block;vertical-align:middle}
-ul#procesotx{width:100%;margin:0 0 20px}
-ul#procesotx li{margin:0;width:24.5%}
-ul#procesotx li li{font:15px UbuntuMedium,Arial,sans-serif;color:#213773;width:auto;text-align:left;margin:0}
-ul#procesotx li li.num{font:45px UbuntuBold,Arial,sans-serif;color:#C1CBE0;margin-right:5px}
-ul#procesotx li ul{margin:0;padding:0}
-#presentacion,#cuerpo,#contenedorcuerpo,#info{text-align:left!important}
-#contenedorinfo{margin-top:-30px;margin-bottom:20px;padding-top:90px;background:url(images/icon_ojo.png) no-repeat left top}
-#info .margeni15{box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-o-box-sizing:border-box;-ms-box-sizing:border-box;padding:0 15px}
-#pie{width:100%;min-height:100px;display:block;background-color:#3C67BC;margin-top:50px}
-#impacto-grafico{margin:20px 0;padding:0;width:97%;height:250px}
-#cajaAvatar{margin-top:20px;margin-left:5px;height:430px;overflow:hidden}
-h3#apuntadas{background-color:#8498C1;color:#FFF;font:19px UbuntuMedium,Arial,sans-serif;margin:0;padding:7px 15px}
-.apuntateboton{width:70%;padding:10px 15px;margin-top:5px;text-align:center;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;-o-border-radius:3px;-ms-border-radius:3px;background-image:linear-gradient(top,#35549F 40%,#3C67BC 100%);background-image:-o-linear-gradient(top,#35549F 40%,#3C67BC 100%);background-image:-moz-linear-gradient(top,#35549F 40%,#3C67BC 100%);background-image:-webkit-linear-gradient(top,#35549F 40%,#3C67BC 100%);background-image:-ms-linear-gradient(top,#35549F 40%,#3C67BC 100%);background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0.4,#35549F),color-stop(1,#3C67BC))}
-.apuntateboton a,.apuntateboton a:link,.apuntateboton a:visited{color:#FFF;text-decoration:none}
-.apuntateboton:hover{position:relative;top:1px}
-.cortar{clear:both}
-.cols{float:left}
-.ocho{width:66.6%}
-.siete{width:58.3%}
-.seis{width:50%}
-.cinco{width:41.6%}
-.cuatro{width:33.3%}
-.tres{width:25%}
-.uno{width:8.3%}
-.offset-by-one{margin-left:8.3%}
-.sombra{box-shadow:2px 2px 3px #999;-moz-box-shadow:2px 2px 3px #999;-webkit-box-shadow:2px 2px 3px #999;-o--box-shadow:2px 2px 3px #999}
-.vineta{list-style:url(images/vineta_check.png);list-style-position:outside;margin-bottom:30px}
-.aazul{color:#35549F;text-decoration:underline;font-size:90%;margin-bottom:35px;display:block}
-.bordeBN{border-top:1px solid #F0F0F0;border-left:1px solid #FFF;border-right:1px solid silver;border-bottom:1px solid silver}
-.bordeazul{border:1px solid #35549F;height:440px}
-.borde-dash{border:3px dashed #3C67BC;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;-o-border-radius:5px;-ms-border-radius:5px}
-#baner{color:#8498C1;font:40px UbuntuBold,Arial,sans-serif;text-align:center;width:100%}
-.ban45{font-size:45px}
-.centrar{text-align:center}
-.espacioV{margin-top:20px}
-#contenedorcuerpo2,#contenedorcuerpo3{background-color:#FFF;padding:0 20px 30px 30px;margin:20px 0;text-align:left}
-#contenedorcuerpo2 p,#contenedorcuerpo3 p{font-size:14px;letter-spacing:.01em;line-height:20px}
-h3{font:22px UbuntuBold,Arial,sans-serif;color:#213773;margin-bottom:17px}
-#barrainf{padding:0 20%}
-#barrainf div{position:relative;margin:30px auto 0}
-#orla{background:url(images/banda.png) no-repeat center center;height:70px;padding:20px}
-h2#baner{margin:0;font-size:45px}
-#listaexigencias{list-style:none;padding:30px 0 0;margin-bottom:30px}
-#contenedorcuerpo3 h3{margin:0;padding-top:7px}
-#contenedorcuerpo3 p{margin-top:0;margin-bottom:25px}
-#listaexigencias div.num{float:left;font:50px UbuntuBold,Arial,sans-serif;color:#C1CBE0;margin-right:10px}
-.hr{height:1px;border-bottom:1px solid #EDEDED;margin-bottom:30px}
-#notapie{padding-left:40px;background:url(images/asterisco.png)no-repeat left top;color:#606060}
-#cajaAvatar{height:431px!important}
-.registro{width:100%;height:59px;overflow:hidden;border-bottom:1px solid #8498C1;padding:3px 5px;background-color:#EDF0F4;clear:both}
-.img_usuaria{width:52px;height:52px;margin:2px 5px 2px 0;float:left;overflow:hidden;border:1px solid #8498C1;background-color:#C1CBE0}
-.datos_usuaria p{font-size:12px;margin:0}
-.datos_usuaria h5{font-size:12px;margin:3px 0;font:12px UbuntuMedium,Arial,sans-serif}
-.orbit-wrapper{width:1px;height:1px;position:relative}
-.orbit{width:1px;height:1px;position:relative;overflow:hidden;margin-bottom:17px}
-.orbit.with-bullets{margin-bottom:40px}
-.orbit .orbit-slide{max-width:100%;position:absolute;top:0;left:0}
-.orbit a.orbit-slide{border:0;line-height:0;display:none}
-.orbit div.orbit-slide{width:100%;height:100%;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);opacity:0}
-div.orbit-wrapper div.timer{width:40px;height:40px;overflow:hidden;position:absolute;top:10px;right:10px;opacity:.6;cursor:pointer;z-index:31}
-div.orbit-wrapper span.rotator{display:block;width:40px;height:40px;position:absolute;top:0;left:-20px;background:url(images/foundation/orbit/rotator-black.png) no-repeat;z-index:3}
-div.orbit-wrapper span.rotator.move{left:0}
-div.orbit-wrapper span.mask{display:block;width:20px;height:40px;position:absolute;top:0;right:0;z-index:2;overflow:hidden}
-div.orbit-wrapper span.mask.move{width:40px;left:0;background:url(images/foundation/orbit/timer-black.png) repeat 0 0}
-div.orbit-wrapper span.pause{display:block;width:40px;height:40px;position:absolute;top:0;left:0;background:url(../images/foundation/orbit/pause-black.png) no-repeat;z-index:4;opacity:0}
-div.orbit-wrapper span.pause.active{background:url(images/foundation/orbit/pause-black.png) no-repeat 0 -40px}
-div.orbit-wrapper div.timer:hover span.pause,div.orbit-wrapper span.pause.active{opacity:1}
-.orbit-caption{display:none;font-family:inherit}
-.orbit-wrapper .orbit-caption{background:#000;background:rgba(0,0,0,.6);z-index:30;color:#fff;text-align:center;padding:7px 0;font-size:13px;position:absolute;right:0;bottom:0;width:100%}
-div.orbit-wrapper div.slider-nav{display:block}
-div.orbit-wrapper div.slider-nav span{width:39px;height:50px;text-indent:-9999px;position:absolute;z-index:30;top:50%;margin-top:-25px;cursor:pointer}
-div.orbit-wrapper div.slider-nav span.right{background:url(images/foundation/orbit/right-arrow.png);background-size:100%;right:0}
-div.orbit-wrapper div.slider-nav span.left{background:url(images/foundation/orbit/left-arrow.png);background-size:100%;left:0}
-.lt-ie9 div.orbit-wrapper div.slider-nav span.right{background:url(images/foundation/orbit/right-arrow-small.png)}
-.lt-ie9 div.orbit-wrapper div.slider-nav span.left{background:url(images/foundation/orbit/left-arrow-small.png)}
-ul.orbit-bullets{position:absolute;z-index:30;list-style:none;bottom:-40px;left:50%;margin-left:-50px;padding:0}
-ul.orbit-bullets li{float:left;margin-left:5px;cursor:pointer;color:#999;text-indent:-9999px;background:url(images/foundation/orbit/bullets.jpg) no-repeat 4px 0;width:13px;height:12px;overflow:hidden}
-ul.orbit-bullets li.active{color:#222;background-position:-8px 0}
-ul.orbit-bullets li.has-thumb{background:0;width:100px;height:75px}
-ul.orbit-bullets li.active.has-thumb{background-position:0 0;border-top:2px solid #000}
-.orbit-slide-counter{position:absolute;bottom:0;z-index:99;background:rgba(0,0,0,.7);color:#fff;padding:5px}
-div.orbit img.fluid-placeholder{visibility:hidden;position:static;display:block;width:100%}
-div.orbit,div.orbit-wrapper{width:100%!important}
-.lt-ie9 .timer{display:none!important}
-.lt-ie9 div.caption{background:#000;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);zoom:1}
-@media only screen and (max-width:767px){div.orbit.orbit-stack-on-small img.fluid-placeholder{visibility:visible}
-div.orbit.orbit-stack-on-small .orbit-slide{position:static;margin-bottom:10px}}
-.orbit-wrapper .orbit.with-bullets,.orbit{height:250px!important;margin-bottom:0!important}
-#listaYoutube,#galeriaFotos{width:100%;text-align:center;padding:20px 0}
-.derecha{text-align:right}
-.izquierda{text-align:left}
-#fb{margin-right:58px}
-#tw{margin-left:18px}
-.entremete{margin-top:-10px}
-.contadores{margin-top:-5px}
+/*
+@font-face {
+	font-family: 'UbuntuRegular';
+	src: url('fonts/Ubuntu-R-webfont.eot');
+	src: url('fonts/Ubuntu-R-webfont.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Ubuntu-R-webfont.woff') format('woff'),
+		url('fonts/Ubuntu-R-webfont.ttf') format('truetype'),
+		url('fonts/Ubuntu-R-webfont.svg#UbuntuRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'UbuntuItalic';
+	src: url('fonts/Ubuntu-RI-webfont.eot');
+	src: url('fonts/Ubuntu-RI-webfont.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Ubuntu-RI-webfont.woff') format('woff'),
+		url('fonts/Ubuntu-RI-webfont.ttf') format('truetype'),
+		url('fonts/Ubuntu-RI-webfont.svg#UbuntuItalic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'UbuntuBold';
+	src: url('fonts/Ubuntu-B-webfont.eot');
+	src: url('fonts/Ubuntu-B-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/Ubuntu-B-webfont.woff') format('woff'), url('fonts/Ubuntu-B-webfont.ttf') format('truetype'), url('fonts/Ubuntu-B-webfont.svg#UbuntuBold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'UbuntuBoldItalic';
+	src: url('fonts/Ubuntu-BI-webfont.eot');
+	src: url('fonts/Ubuntu-BI-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/Ubuntu-BI-webfont.woff') format('woff'), url('fonts/Ubuntu-BI-webfont.ttf') format('truetype'), url('fonts/Ubuntu-BI-webfont.svg#UbuntuBoldItalic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'UbuntuLight';
+	src: url('fonts/Ubuntu-L-webfont.eot');
+	src: url('fonts/Ubuntu-L-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/Ubuntu-L-webfont.woff') format('woff'), url('fonts/Ubuntu-L-webfont.ttf') format('truetype'), url('fonts/Ubuntu-L-webfont.svg#UbuntuLight') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'UbuntuLightItalic';
+	src: url('fonts/Ubuntu-LI-webfont.eot');
+	src: url('fonts/Ubuntu-LI-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/Ubuntu-LI-webfont.woff') format('woff'), url('fonts/Ubuntu-LI-webfont.ttf') format('truetype'), url('fonts/Ubuntu-LI-webfont.svg#UbuntuLightItalic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'UbuntuMedium';
+	src: url('fonts/Ubuntu-M-webfont.eot');
+	src: url('fonts/Ubuntu-M-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/Ubuntu-M-webfont.woff') format('woff'), url('fonts/Ubuntu-M-webfont.ttf') format('truetype'), url('fonts/Ubuntu-M-webfont.svg#UbuntuMedium') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'UbuntuMediumItalic';
+	src: url('fonts/Ubuntu-MI-webfont.eot');
+	src: url('fonts/Ubuntu-MI-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/Ubuntu-MI-webfont.woff') format('woff'), url('fonts/Ubuntu-MI-webfont.ttf') format('truetype'), url('fonts/Ubuntu-MI-webfont.svg#UbuntuMediumItalic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'UbuntuCondensedRegular';
+	src: url('fonts/Ubuntu-C-webfont.eot');
+	src: url('fonts/Ubuntu-C-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/Ubuntu-C-webfont.woff') format('woff'), url('fonts/Ubuntu-C-webfont.ttf') format('truetype'), url('fonts/Ubuntu-C-webfont.svg#UbuntuCondensedRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+*/
+
+#botonera {
+	position: fixed;
+	top: 10px;
+	left: 50px;
+	z-index: 2
+}
+
+#cargando {
+	position: fixed;
+	top: 10px;
+	left: 900px;
+	width: 10px;
+	height: 20px;
+	background: #433128;
+	color: #fff;
+	font-size: 2em;
+	z-index: 10
+}
+
+.boton {
+	border: 1px solid #96d1f8;
+	background: #65a9d7;
+	background: -webkit-gradient(linear,left top,left bottom,from(#3e779d),to(#65a9d7));
+	background: -webkit-linear-gradient(top,#3e779d,#65a9d7);
+	background:    -moz-linear-gradient(top,#3e779d,#65a9d7);
+	background:     -ms-linear-gradient(top,#3e779d,#65a9d7);
+	background:      -o-linear-gradient(top,#3e779d,#65a9d7);
+	padding: 12px 24px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	   -moz-border-radius: 10px;
+	box-shadow: rgba(0,0,0,1) 0 1px 0;
+	-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	text-shadow: rgba(0,0,0,.4) 0 1px 0;
+	color: #fff!important;
+	font-size: 17px;
+	text-decoration: none;
+	vertical-align: middle
+}
+
+.boton:hover {
+	border-top-color: #28597a;
+	background: #28597a;
+	color: #ccc
+}
+
+.boton:active {
+	border-top-color: #1b435e;
+	background: #1b435e
+}
+
+/*estilos Mar*/
+body {
+	background: #FFFFFF url(images/px_body.png) repeat-x left top;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	/*font: 16px 'UbuntuRegular', Arial, sans-serif;*/
+	font-family: 'Ubuntu', Arial, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	color: #000;
+}
+
+strong, b {
+	/* font: 16px 'UbuntuBold', Arial, sans-serif; */
+	font-family: 'Ubuntu', Arial, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+}
+
+h1#textc30 {
+	/* font: 37px 'UbuntuBoldItalic', Arial, sans-serif; */
+	font-family: 'Ubuntu', Arial, sans-serif;
+	font-size: 37px;
+	font-style: normal;
+	font-weight: 700;
+	color: #213773;
+	margin-top: 12px;
+}
+
+h1 {
+	/* font: 35px 'UbuntuBold', Arial, sans-serif; */
+	font-family: 'Ubuntu', Arial, sans-serif;
+	font-size: 35px;
+	font-style: normal;
+	font-weight: 700;
+	color: #213773;
+	margin-top: 12px;
+}
+
+h2 {
+	/* font: 25px 'UbuntuBold', Arial, sans-serif; */
+	font-family: 'Ubuntu', Arial, sans-serif;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 700;
+	color: #213773;
+	margin-top: 30px;
+	margin-bottom: 0;
+}
+
+#principal {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#contenedormapa1 {
+	height: 400px;
+	width: 100%;
+	background: #FFF;
+	text-align: center;
+	padding: 15px;
+	margin-bottom: 20px;
+}
+
+#contenedormapa2 {
+	margin-left: auto;
+	margin-right: auto;
+	height: 400px;
+	width: auto;
+	background: #FFF}
+
+iframe {
+	border: none;
+	height: 400px;
+}
+
+#mapa {
+	height: 100%;
+	width: 100%;
+	padding: 0px}
+
+a, a:active, a:focus, a:visited {
+	text-decoration: none;
+	outline: none}
+
+#cabecera {
+	padding: 0;
+	width: 100%;
+}
+
+#cabecera2 {
+	padding: 0;
+	margin-top: 5px;
+	width: 100%;
+	height: 35px;
+}
+
+#cabecera2, #cabecera2 a, #cabecera2 a:link, #cabecera2 a:visited {
+	/* font: 13px 'UbuntuRegular', Arial, sans-serif; */
+	font-family: 'Ubuntu', Arial, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 700;
+	color: #FFF;
+}
+
+#cabecera2 ul {
+	list-style: none;
+	width: auto;
+	margin: 0;
+	padding: 0 70px;
+}
+
+#cabecera2 li {
+	width: auto;
+	margin: 0 15px;
+	display: inline;
+}
+
+#cabecera3 {
+	text-align: left;
+	padding: 0;
+	width: 100%;
+}
+
+ #cabecera3 ul {
+	list-style: none;
+	width: auto;
+	margin: 0;
+	padding: 0 5px;
+	text-align: center;
+}
+
+#cabecera3 li {
+	width: auto;
+	margin: 0 26px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+ul#procesotx {
+	width: 100%;
+	margin: 0 0 20px 0;
+}
+
+ul#procesotx li {
+	margin: 0;
+	width: 24.5%;
+}
+
+ul#procesotx li li {
+	/* font: 15px 'UbuntuMedium', Arial, sans-serif; */
+	font-family: 'Ubuntu', Arial, sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	color: #213773;
+	width: auto;
+	text-align: left;
+	margin: 0;
+}
+
+ul#procesotx li li.num {
+	/* font: 45px 'UbuntuBold', Arial, sans-serif; */
+	font-family: 'Ubuntu', Arial, sans-serif;
+	font-size: 45px;
+	font-style: normal;
+	font-weight: 700;
+	color: #C1CBE0;
+	margin-right: 5px;
+}
+
+ul#procesotx li ul {
+	margin: 0;
+	padding: 0;
+}
+
+#presentacion, #cuerpo, #contenedorcuerpo, #info {
+	text-align: left !important;
+}
+
+#contenedorinfo {
+	margin-top: -30px;
+	margin-bottom: 20px;
+	padding-top: 90px;
+	background: url(images/icon_ojo.png) no-repeat left top;
+}
+
+#info .margeni15 {
+	box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	     -o-box-sizing: border-box;
+	    -ms-box-sizing: border-box;
+	padding: 0 15px;
+}
+
+#pie {
+	width: 100%;
+	min-height: 100px;
+	display: block;
+	background-color: #3C67BC;
+	margin-top: 50px;
+}
+
+#impacto-grafico {
+	margin: 20px 0;
+	padding: 0;
+	width: 97%;
+	height: 250px;
+}
+
+#cajaAvatar {
+	margin-top: 20px;
+	margin-left: 5px;
+	height: 430px;
+	overflow: hidden;
+}
+
+/*#cajaAvatar div.bordeazul {
+	overflow: auto;
+	height: 440px;
+}
+
+*/
+h3#apuntadas {
+	background-color: #8498C1;
+	color: #FFFFFF;
+	/* font: 19px 'UbuntuMedium', Arial, sans-serif; */
+	font-family: 'Ubuntu', Arial, sans-serif;
+	font-size: 19px;
+	font-style: normal;
+	font-weight: 400;
+	margin: 0;
+	padding: 7px 15px;
+}
+
+.apuntateboton {
+	width: 70%;
+	padding: 10px 15px;
+	margin-top: 5px;
+	text-align: center;
+	border-radius: 3px;
+	   -moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	     -o-border-radius: 3px;
+	    -ms-border-radius: 3px;
+	background-image: linear-gradient(top, #35549F 40%, #3C67BC 100%);
+	background-image: -o-linear-gradient(top, #35549F 40%, #3C67BC 100%);
+	background-image: -moz-linear-gradient(top, #35549F 40%, #3C67BC 100%);
+	background-image: -webkit-linear-gradient(top, #35549F 40%, #3C67BC 100%);
+	background-image: -ms-linear-gradient(top, #35549F 40%, #3C67BC 100%);
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0.4, #35549F),color-stop(1, #3C67BC));
+}
+
+.apuntateboton a, .apuntateboton a:link, .apuntateboton a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.apuntateboton:hover {
+	position: relative;
+	top: 1px;
+}
+
+.cortar {
+	clear: both;
+}
+
+.cols {
+	float: left;
+}
+
+.ocho {
+	width: 66.6%;
+}
+
+.siete {
+	width: 58.3%;
+}
+
+.seis {
+	width: 50%;
+}
+
+.cinco {
+	width: 41.6%;
+}
+
+.cuatro {
+	width: 33.3%;
+}
+
+.tres {
+	width: 25%;
+}
+
+.uno {
+	width: 8.3%;
+}
+
+.offset-by-one {
+	margin-left: 8.3%;
+}
+
+.sombra {
+	box-shadow: 2px 2px 3px #999999;
+	   -moz-box-shadow: 2px 2px 3px #999999;
+	-webkit-box-shadow: 2px 2px 3px #999999;
+	    -o--box-shadow: 2px 2px 3px #999999;
+}
+
+.vineta {
+	list-style: url(images/vineta_check.png);
+	list-style-position: outside;
+	margin-bottom: 30px;
+}
+
+.aazul {
+	color: #35549F;
+	text-decoration: underline;
+	font-size: 90%;
+	margin-bottom: 35px;
+	display: block;
+}
+
+.bordeBN {
+	border-top: 1px solid #F0F0F0;
+	border-left: 1px solid #FFFFFF;
+	border-right: 1px solid #C0C0C0;
+	border-bottom: 1px solid #C0C0C0;
+}
+
+.bordeazul {
+	border: 1px solid #35549F;
+	height: 440px;
+}
+
+.borde-dash {
+	border: 3px dashed #3C67BC;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;
+}
+
+/*nuevos estilos pag operación, el rescate, etc*/
+#baner {
+	color: #8498C1;
+	/* font: 40px 'UbuntuBold', Arial, sans-serif; */
+	font-family: 'Ubuntu', Arial, sans-serif;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 700;
+	text-align: center;
+	width: 100%;
+}
+
+.ban45 {
+	font-size: 45px;
+}
+
+.centrar {
+	text-align: center;
+}
+
+.espacioV {
+	margin-top: 20px;
+}
+
+#contenedorcuerpo2, #contenedorcuerpo3 {
+	background-color: #FFF;
+	padding: 0 20px 30px 30px;
+	margin: 20px 0;
+	text-align: left;
+}
+
+#contenedorcuerpo2 p, #contenedorcuerpo3 p {
+	font-size: 14px;
+	letter-spacing: 0.01em;
+	line-height: 20px;
+}
+
+h3 {
+	/* font: 22px 'UbuntuBold', Arial, sans-serif; */
+	font-family: 'Ubuntu', Arial, sans-serif;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 700;
+	color: #213773;
+	margin-bottom: 17px;
+}
+
+#barrainf {
+	padding: 0 20%;
+}
+
+#barrainf div {
+	position: relative;
+	margin: 30px auto 0 auto;
+}
+
+#orla {
+	background: url(images/banda.png) no-repeat center center;
+	height: 70px;
+	padding: 20px;
+}
+
+h2#baner {
+	margin: 0;
+	font-size: 45px;
+}
+
+#listaexigencias {
+	list-style: none;
+	padding: 30px 0 0 0;
+	margin-bottom: 30px;
+}
+
+#contenedorcuerpo3 h3 {
+	margin: 0;
+	padding-top: 7px;
+}
+
+#contenedorcuerpo3 p {
+	margin-top: 0;
+	margin-bottom: 25px;
+}
+
+#listaexigencias div.num {
+	float: left;
+	/* font: 50px 'UbuntuBold', Arial, sans-serif; */
+	font-family: 'Ubuntu', Arial, sans-serif;
+	font-size: 50px;
+	font-style: normal;
+	font-weight: 700;
+	color: #C1CBE0;
+	margin-right: 10px;
+}
+
+.hr {
+	height: 1px;
+	border-bottom: 1px solid #EDEDED;
+	margin-bottom: 30px;
+}
+
+#notapie {
+	padding-left: 40px;
+	background: url(images/asterisco.png)no-repeat left top;
+	color: #606060;
+}
+
+/*listado usuarias en portada*/
+#cajaAvatar {
+	height: 431px !important;
+}
+
+.registro {
+	width: 100%;
+	height: 59px;
+	overflow: hidden;
+	border-bottom: 1px solid #8498C1;
+	padding: 3px 5px;
+	background-color: #EDF0F4;
+	clear: both;
+}
+
+.img_usuaria {
+	width: 52px;
+	height: 52px;
+	margin: 2px 5px 2px 0;
+	float: left;
+	overflow: hidden;
+	border: 1px solid #8498C1;
+	background-color: #C1CBE0;
+}
+
+.datos_usuaria p {
+	font-size: 12px;
+	margin: 0;
+}
+
+.datos_usuaria h5 {
+	font-size: 12px;
+	margin: 3px 0;
+	/* font: 12px 'UbuntuMedium', Arial, sans-serif; */
+	font-family: 'Ubuntu', Arial, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+/* Estilos carrusel*/
+/* Container ---------------------- */
+.orbit-wrapper {
+	width: 1px;
+	height: 1px;
+	position: relative;
+}
+
+.orbit {
+	width: 1px;
+	height: 1px;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 17px;
+}
+
+.orbit.with-bullets {
+	margin-bottom: 40px;
+}
+
+.orbit .orbit-slide {
+	max-width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.orbit a.orbit-slide {
+	border: none;
+	line-height: 0;
+	display: none;
+}
+
+.orbit div.orbit-slide {
+	width: 100%;
+	height: 100%;
+	filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+	opacity: 0;
+}
+
+/* Note: If your slider only uses content or anchors, you're going to want to put the width and height declarations on the ".orbit>div" and "div.orbit>a" tags in addition to just the .orbit-wrapper */
+/* Timer ---------------------- */
+div.orbit-wrapper div.timer {
+	width: 40px;
+	height: 40px;
+	overflow: hidden;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	opacity: .6;
+	cursor: pointer;
+	z-index: 31;
+}
+
+div.orbit-wrapper span.rotator {
+	display: block;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 0;
+	left: -20px;
+	background: url('images/foundation/orbit/rotator-black.png') no-repeat;
+	z-index: 3;
+}
+
+div.orbit-wrapper span.rotator.move {
+	left: 0;
+}
+
+div.orbit-wrapper span.mask {
+	display: block;
+	width: 20px;
+	height: 40px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 2;
+	overflow: hidden;
+}
+
+div.orbit-wrapper span.mask.move {
+	width: 40px;
+	left: 0;
+	background: url('images/foundation/orbit/timer-black.png') repeat 0 0;
+}
+
+div.orbit-wrapper span.pause {
+	display: block;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url('../images/foundation/orbit/pause-black.png') no-repeat;
+	z-index: 4;
+	opacity: 0;
+}
+
+div.orbit-wrapper span.pause.active {
+	background: url('images/foundation/orbit/pause-black.png') no-repeat 0 -40px;
+}
+
+div.orbit-wrapper div.timer:hover span.pause, div.orbit-wrapper span.pause.active {
+	opacity: 1;
+}
+
+/* Captions ---------------------- */
+.orbit-caption {
+	display: none;
+	font-family: inherit;
+}
+
+.orbit-wrapper .orbit-caption {
+	background: black;
+	background: rgba(0, 0, 0, 0.6);
+	z-index: 30;
+	color: white;
+	text-align: center;
+	padding: 7px 0;
+	font-size: 13px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+/* Directional Nav ---------------------- */
+div.orbit-wrapper div.slider-nav {
+	display: block;
+}
+
+div.orbit-wrapper div.slider-nav span {
+	width: 39px;
+	height: 50px;
+	text-indent: -9999px;
+	position: absolute;
+	z-index: 30;
+	top: 50%;
+	margin-top: -25px;
+	cursor: pointer;
+}
+
+div.orbit-wrapper div.slider-nav span.right {
+	background: url('images/foundation/orbit/right-arrow.png');
+	background-size: 100%;
+	right: 0;
+}
+
+div.orbit-wrapper div.slider-nav span.left {
+	background: url('images/foundation/orbit/left-arrow.png');
+	background-size: 100%;
+	left: 0;
+}
+
+.lt-ie9 div.orbit-wrapper div.slider-nav span.right {
+	background: url('images/foundation/orbit/right-arrow-small.png');
+}
+
+.lt-ie9 div.orbit-wrapper div.slider-nav span.left {
+	background: url('images/foundation/orbit/left-arrow-small.png');
+}
+
+/* Bullet Nav ---------------------- */
+ul.orbit-bullets {
+	position: absolute;
+	z-index: 30;
+	list-style: none;
+	bottom: -40px;
+	left: 50%;
+	margin-left: -50px;
+	padding: 0;
+}
+
+ul.orbit-bullets li {
+	float: left;
+	margin-left: 5px;
+	cursor: pointer;
+	color: #999999;
+	text-indent: -9999px;
+	background: url('images/foundation/orbit/bullets.jpg') no-repeat 4px 0;
+	width: 13px;
+	height: 12px;
+	overflow: hidden;
+}
+
+ul.orbit-bullets li.active {
+	color: #222222;
+	background-position: -8px 0;
+}
+
+ul.orbit-bullets li.has-thumb {
+	background: none;
+	width: 100px;
+	height: 75px;
+}
+
+ul.orbit-bullets li.active.has-thumb {
+	background-position: 0 0;
+	border-top: 2px solid black;
+}
+
+/* Orbit Slide Counter */
+.orbit-slide-counter {
+	position: absolute;
+	bottom: 0;
+	z-index: 99;
+	background: rgba(0, 0, 0, 0.7);
+	color: white;
+	padding: 5px;
+}
+
+/* Fluid Layout ---------------------- */
+div.orbit img.fluid-placeholder {
+	visibility: hidden;
+	position: static;
+	display: block;
+	width: 100%;
+}
+
+div.orbit, div.orbit-wrapper {
+	width: 100% !important;
+}
+
+/* Correct timer in IE */
+.lt-ie9 .timer {
+	display: none !important;
+}
+
+.lt-ie9 div.caption {
+	background: black;
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000);
+	zoom: 1;
+}
+
+@media only screen and (max-width: 767px) {
+	div.orbit.orbit-stack-on-small img.fluid-placeholder {
+	visibility: visible;
+}
+
+ div.orbit.orbit-stack-on-small .orbit-slide {
+	position: static;
+	margin-bottom: 10px;
+}
+
+ }
+
+.orbit-wrapper .orbit.with-bullets,.orbit {
+	height: 250px !important;
+	margin-bottom: 0 !important;
+}
+
+#listaYoutube, #galeriaFotos {
+	width: 100%;
+	text-align: center;
+	padding: 20px 0;
+}
+
+/*Fin estilos Mar*/
+.derecha {
+	text-align: right;
+}
+
+.izquierda {
+	text-align: left;
+}
+
+#fb {
+	margin-right: 58px;
+}
+
+#tw {
+	margin-left: 18px;
+}
+
+.entremete {
+	margin-top: -10px;
+}
+
+.contadores {
+	margin-top: -5px;
+}
+
