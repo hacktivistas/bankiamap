@@ -2,7 +2,7 @@
 	<body>
 		<div id="principal">
 			<div id="cabecera">
-				<a href="index.html"><img src="images/TAB_logoWeb.png" /></a>
+				<a href="index.html"><img src="images/TAB_logoWeb.png" width="427" height="109" alt="Demos un toque a Bankia" /></a>
 			</div>
 			<?php include('menu.php'); ?>
 			<div id="presentacion">
@@ -15,12 +15,12 @@
 					<div class="cortar"></div>
 					<div id="impacto-grafico" class="sombra">
 						<div id="diapos" class="orbit">
-							<img src="images/00_baner_fecha.jpg" alt="slide image">
-							<img src="images/01_raton-mamon.jpg" alt="slide image">
-							<img src="images/02_stopdesahucios.jpg"	alt="slide image">
-							<img src="images/03_preferentes.jpg" alt="slide image">
-							<img src="images/04_recortes.jpg" alt="slide image">
-							<img src="images/05_nuestra.jpg" alt="slide image">
+							<img src="images/00_baner_fecha.jpg" width="620" height="250" alt="slide image" />
+							<img src="images/01_raton-mamon.jpg" width="620" height="250" alt="slide image" />
+							<img src="images/02_stopdesahucios.jpg" width="620" height="250" alt="slide image" />
+							<img src="images/03_preferentes.jpg" width="620" height="250" alt="slide image" />
+							<img src="images/04_recortes.jpg" width="620" height="250" alt="slide image" />
+							<img src="images/05_nuestra.jpg" width="620" height="250" alt="slide image" />
 						</div>
 					</div>
 				</div><!--fin 8 cols-->
@@ -52,7 +52,7 @@
 					<p><a class="aazul" href="operacion.html">Más información de “Toque a Bankia”</a></p>
 					<div class="apuntateboton sombra cinco"><a href="toque.html" class="font-effect-fire-animation">¡Comienza ahora!</a></div>
 				</div>
-				<div class="cinco offset-by-one cols"><img src="images/swarm_bankia-es-nuestra.png"></div>
+				<div class="cinco offset-by-one cols"><img src="images/swarm_bankia-es-nuestra.png" width="404" height="376" alt="¡Bankia es nuestra!" /></div>
 				<div class="cortar"></div>
 			</div><!--Fin Cuerpo-->
 		</div><!--Fin Principal-->
