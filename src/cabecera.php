@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html lang="es">
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-		<meta http-equiv="Content-Language" CONTENT="es"/>
-		<meta name="author" CONTENT="Brankia S.A."/>
-		<meta name="copyitright" CONTENT="Brankia S.A., 2012. Rato. Todos los derechos en los reservados."/>
-		<meta name="title" CONTENT="Bankia"/>
-		<meta name="generator" CONTENT="Bankia"/>
-		<meta name="distribution" CONTENT="global"/>
-		<meta name="revisit" CONTENT="0 day" />
-		<meta name="robots" CONTENT="all" />
-		
-		<meta property="og:title" content="Toque a Bankia" />
-		<meta property="og:type" content="cause" />
-		<meta property="og:url" content="http://toqueabankia.net" />
-		<meta property="og:image" content="http://toqueabankia.net/images/TAB_logoWeb.png" />
-		<meta property="og:site_name" content="Dale un toque a Bankia" />
-		<meta property="fb:admins" content="100003745894955" />
-        
-      <link rel="stylesheet" href="estilos.css" />
+		<meta charset="utf-8" />
+		<meta http-equiv="Content-Language" content="es" />
+		<meta name="author" content="Brankia S.A." />
+		<meta name="copyright" content="Brankia S.A., 2012. Rato. Todos los derechos en los reservados." />
+		<meta name="title" content="Brankia" />
+		<meta name="generator" content="Brankia S.A." />
+		<meta name="distribution" content="global" />
+		<meta name="revisit" content="0 day" />
+		<meta name="robots" content="all" />
+
+		<meta content="Toque a Bankia"  property="og:title" />
+		<meta content="cause"  property="og:type" />
+		<meta content="http://toqueabankia.net"  property="og:url" />
+		<meta content="http://toqueabankia.net/images/TAB_logoWeb.png"  property="og:image" />
+		<meta content="Dale un toque a Bankia"  property="og:site_name" />
+		<meta content="100003745894955"  property="fb:admins" />
+
+		<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+
+		<link href="estilos.css" type="text/css" rel="stylesheet" media="screen, projection" />
+		<link type="text/css" rel="stylesheet"  href="http://fonts.googleapis.com/css?family=Ubuntu" />
+		<link type="text/css" rel="stylesheet"  href="http://fonts.googleapis.com/css?family=Exo&effect=fire-animation" />
 
 		<title>Bankia - Toque a Bankia</title>
 	</head>
