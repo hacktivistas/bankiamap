@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
 	<head>
-		<meta charset="utf-8" />
+        <meta charset="utf-8" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta http-equiv="Content-Language" content="es" />
 		<meta name="author" content="Rato, copyright" content="Brankia S.A., 2012. Rato. Todos los derechos en los reservados." />
 		<meta name="title" content="Brankia" />
