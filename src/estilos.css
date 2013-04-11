@@ -9,7 +9,6 @@
 	font-weight: normal;
 	font-style: normal;
 }
-
 @font-face {
 	font-family: 'UbuntuItalic';
 	src: url('fonts/Ubuntu-RI-webfont.eot');
@@ -20,7 +19,6 @@
 	font-weight: normal;
 	font-style: normal;
 }
-
 @font-face {
 	font-family: 'UbuntuBold';
 	src: url('fonts/Ubuntu-B-webfont.eot');
@@ -28,7 +26,6 @@
 	font-weight: normal;
 	font-style: normal;
 }
-
 @font-face {
 	font-family: 'UbuntuBoldItalic';
 	src: url('fonts/Ubuntu-BI-webfont.eot');
@@ -36,7 +33,6 @@
 	font-weight: normal;
 	font-style: normal;
 }
-
 @font-face {
 	font-family: 'UbuntuLight';
 	src: url('fonts/Ubuntu-L-webfont.eot');
@@ -44,7 +40,6 @@
 	font-weight: normal;
 	font-style: normal;
 }
-
 @font-face {
 	font-family: 'UbuntuLightItalic';
 	src: url('fonts/Ubuntu-LI-webfont.eot');
@@ -52,7 +47,6 @@
 	font-weight: normal;
 	font-style: normal;
 }
-
 @font-face {
 	font-family: 'UbuntuMedium';
 	src: url('fonts/Ubuntu-M-webfont.eot');
@@ -60,7 +54,6 @@
 	font-weight: normal;
 	font-style: normal;
 }
-
 @font-face {
 	font-family: 'UbuntuMediumItalic';
 	src: url('fonts/Ubuntu-MI-webfont.eot');
@@ -68,7 +61,6 @@
 	font-weight: normal;
 	font-style: normal;
 }
-
 @font-face {
 	font-family: 'UbuntuCondensedRegular';
 	src: url('fonts/Ubuntu-C-webfont.eot');
@@ -136,48 +128,48 @@ body {
 	padding: 0;
 	margin: 0;
 	text-align: center;
-	/*font: 16px 'UbuntuRegular', Arial, sans-serif;*/
-	font-family: 'Ubuntu', Arial, sans-serif;
+	font: 16px 'UbuntuRegular', Arial, sans-serif;
+	/*font-family: 'Ubuntu', Arial, sans-serif;
 	font-size: 16px;
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 400;*/
 	color: #000;
 }
 
 strong, b {
-	/* font: 16px 'UbuntuBold', Arial, sans-serif; */
-	font-family: 'Ubuntu', Arial, sans-serif;
+	font: 16px 'UbuntuBold', Arial, sans-serif;
+	/* font-family: 'Ubuntu', Arial, sans-serif;
 	font-size: 16px;
 	font-style: normal;
-	font-weight: 700;
+	font-weight: 700; */
 }
 
 h1#textc30 {
-	/* font: 37px 'UbuntuBoldItalic', Arial, sans-serif; */
-	font-family: 'Ubuntu', Arial, sans-serif;
+	font: 37px 'UbuntuBoldItalic', Arial, sans-serif;
+	/* font-family: 'Ubuntu', Arial, sans-serif;
 	font-size: 37px;
 	font-style: normal;
-	font-weight: 700;
+	font-weight: 700; */
 	color: #213773;
 	margin-top: 12px;
 }
 
 h1 {
-	/* font: 35px 'UbuntuBold', Arial, sans-serif; */
-	font-family: 'Ubuntu', Arial, sans-serif;
+	font: 35px 'UbuntuBold', Arial, sans-serif; 
+	/* font-family: 'Ubuntu', Arial, sans-serif;
 	font-size: 35px;
 	font-style: normal;
-	font-weight: 700;
+	font-weight: 700; */
 	color: #213773;
 	margin-top: 12px;
 }
 
 h2 {
-	/* font: 25px 'UbuntuBold', Arial, sans-serif; */
-	font-family: 'Ubuntu', Arial, sans-serif;
+	font: 25px 'UbuntuBold', Arial, sans-serif; 
+	/* font-family: 'Ubuntu', Arial, sans-serif;
 	font-size: 25px;
 	font-style: normal;
-	font-weight: 700;
+	font-weight: 700; */
 	color: #213773;
 	margin-top: 30px;
 	margin-bottom: 0;
@@ -232,11 +224,11 @@ a, a:active, a:focus, a:visited {
 }
 
 #cabecera2, #cabecera2 a, #cabecera2 a:link, #cabecera2 a:visited {
-	/* font: 13px 'UbuntuRegular', Arial, sans-serif; */
-	font-family: 'Ubuntu', Arial, sans-serif;
+	font: 13px 'UbuntuRegular', Arial, sans-serif; 
+	/* font-family: 'Ubuntu', Arial, sans-serif;
 	font-size: 13px;
 	font-style: normal;
-	font-weight: 700;
+	font-weight: 700; */
 	color: #FFF;
 }
 
@@ -285,11 +277,11 @@ ul#procesotx li {
 }
 
 ul#procesotx li li {
-	/* font: 15px 'UbuntuMedium', Arial, sans-serif; */
-	font-family: 'Ubuntu', Arial, sans-serif;
+	font: 15px 'UbuntuMedium', Arial, sans-serif; 
+	/* font-family: 'Ubuntu', Arial, sans-serif;
 	font-size: 15px;
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 400; */
 	color: #213773;
 	width: auto;
 	text-align: left;
@@ -297,11 +289,11 @@ ul#procesotx li li {
 }
 
 ul#procesotx li li.num {
-	/* font: 45px 'UbuntuBold', Arial, sans-serif; */
-	font-family: 'Ubuntu', Arial, sans-serif;
+	font: 45px 'UbuntuBold', Arial, sans-serif; 
+	/* font-family: 'Ubuntu', Arial, sans-serif;
 	font-size: 45px;
 	font-style: normal;
-	font-weight: 700;
+	font-weight: 700; */
 	color: #C1CBE0;
 	margin-right: 5px;
 }
@@ -362,11 +354,11 @@ ul#procesotx li ul {
 h3#apuntadas {
 	background-color: #8498C1;
 	color: #FFFFFF;
-	/* font: 19px 'UbuntuMedium', Arial, sans-serif; */
-	font-family: 'Ubuntu', Arial, sans-serif;
+	font: 19px 'UbuntuMedium', Arial, sans-serif; 
+	/* font-family: 'Ubuntu', Arial, sans-serif;
 	font-size: 19px;
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 400; */
 	margin: 0;
 	padding: 7px 15px;
 }
@@ -484,11 +476,11 @@ h3#apuntadas {
 /*nuevos estilos pag operación, el rescate, etc*/
 #baner {
 	color: #8498C1;
-	/* font: 40px 'UbuntuBold', Arial, sans-serif; */
-	font-family: 'Ubuntu', Arial, sans-serif;
+	font: 40px 'UbuntuBold', Arial, sans-serif; 
+	/* font-family: 'Ubuntu', Arial, sans-serif;
 	font-size: 40px;
 	font-style: normal;
-	font-weight: 700;
+	font-weight: 700; */
 	text-align: center;
 	width: 100%;
 }
@@ -519,11 +511,11 @@ h3#apuntadas {
 }
 
 h3 {
-	/* font: 22px 'UbuntuBold', Arial, sans-serif; */
-	font-family: 'Ubuntu', Arial, sans-serif;
+	font: 22px 'UbuntuBold', Arial, sans-serif; 
+	/* font-family: 'Ubuntu', Arial, sans-serif;
 	font-size: 22px;
 	font-style: normal;
-	font-weight: 700;
+	font-weight: 700; */
 	color: #213773;
 	margin-bottom: 17px;
 }
@@ -566,11 +558,11 @@ h2#baner {
 
 #listaexigencias div.num {
 	float: left;
-	/* font: 50px 'UbuntuBold', Arial, sans-serif; */
-	font-family: 'Ubuntu', Arial, sans-serif;
+	font: 50px 'UbuntuBold', Arial, sans-serif; 
+	/* font-family: 'Ubuntu', Arial, sans-serif;
 	font-size: 50px;
 	font-style: normal;
-	font-weight: 700;
+	font-weight: 700; */
 	color: #C1CBE0;
 	margin-right: 10px;
 }
@@ -620,11 +612,11 @@ h2#baner {
 .datos_usuaria h5 {
 	font-size: 12px;
 	margin: 3px 0;
-	/* font: 12px 'UbuntuMedium', Arial, sans-serif; */
-	font-family: 'Ubuntu', Arial, sans-serif;
+	font: 12px 'UbuntuMedium', Arial, sans-serif; 
+	/* font-family: 'Ubuntu', Arial, sans-serif;
 	font-size: 12px;
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 400; */
 }
 
 /* Estilos carrusel*/

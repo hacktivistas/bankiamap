@@ -15,6 +15,7 @@ SCRIPTPATH=$( cd $(dirname $0) ; pwd -P)
 cd "$SCRIPTPATH"
 echo "Minimizando CSS..."
 cleancss -b -o ../estilos.css estilos.css
+cleancss -b -o ../fuentes.css fuentes.css
 #echo "Minimizando JS..."
 # se trata de librerías, que en principio no cambian
 #uglifyjs bankia.js > ../bankia.js

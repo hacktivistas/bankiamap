@@ -3,11 +3,11 @@
 .boton{border:1px solid #96d1f8;background:#65a9d7;background:-webkit-gradient(linear,left top,left bottom,from(#3e779d),to(#65a9d7));background:-webkit-linear-gradient(top,#3e779d,#65a9d7);background:-moz-linear-gradient(top,#3e779d,#65a9d7);background:-ms-linear-gradient(top,#3e779d,#65a9d7);background:-o-linear-gradient(top,#3e779d,#65a9d7);padding:12px 24px;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;box-shadow:rgba(0,0,0,1) 0 1px 0;-webkit-box-shadow:rgba(0,0,0,1) 0 1px 0;-moz-box-shadow:rgba(0,0,0,1) 0 1px 0;text-shadow:rgba(0,0,0,.4) 0 1px 0;color:#fff!important;font-size:17px;text-decoration:none;vertical-align:middle}
 .boton:hover{border-top-color:#28597a;background:#28597a;color:#ccc}
 .boton:active{border-top-color:#1b435e;background:#1b435e}
-body{background:#FFF url(images/px_body.png) repeat-x left top;padding:0;margin:0;text-align:center;font-family:Ubuntu,Arial,sans-serif;font-size:16px;font-style:normal;font-weight:400;color:#000}
-strong,b{font-family:Ubuntu,Arial,sans-serif;font-size:16px;font-style:normal;font-weight:700}
-h1#textc30{font-family:Ubuntu,Arial,sans-serif;font-size:37px;font-style:normal;font-weight:700;color:#213773;margin-top:12px}
-h1{font-family:Ubuntu,Arial,sans-serif;font-size:35px;font-style:normal;font-weight:700;color:#213773;margin-top:12px}
-h2{font-family:Ubuntu,Arial,sans-serif;font-size:25px;font-style:normal;font-weight:700;color:#213773;margin-top:30px;margin-bottom:0}
+body{background:#FFF url(images/px_body.png) repeat-x left top;padding:0;margin:0;text-align:center;font:16px UbuntuRegular,Arial,sans-serif;color:#000}
+strong,b{font:16px UbuntuBold,Arial,sans-serif}
+h1#textc30{font:37px UbuntuBoldItalic,Arial,sans-serif;color:#213773;margin-top:12px}
+h1{font:35px UbuntuBold,Arial,sans-serif;color:#213773;margin-top:12px}
+h2{font:25px UbuntuBold,Arial,sans-serif;color:#213773;margin-top:30px;margin-bottom:0}
 #principal{width:960px;margin:0 auto;padding:0}
 #contenedormapa1{height:400px;width:100%;background:#FFF;text-align:center;padding:15px;margin-bottom:20px}
 #contenedormapa2{margin-left:auto;margin-right:auto;height:400px;width:auto;background:#FFF}
@@ -16,7 +16,7 @@ iframe{border:0;height:400px}
 a,a:active,a:focus,a:visited{text-decoration:none;outline:0}
 #cabecera{padding:0;width:100%}
 #cabecera2{padding:0;margin-top:5px;width:100%;height:35px}
-#cabecera2,#cabecera2 a,#cabecera2 a:link,#cabecera2 a:visited{font-family:Ubuntu,Arial,sans-serif;font-size:13px;font-style:normal;font-weight:700;color:#FFF}
+#cabecera2,#cabecera2 a,#cabecera2 a:link,#cabecera2 a:visited{font:13px UbuntuRegular,Arial,sans-serif;color:#FFF}
 #cabecera2 ul{list-style:none;width:auto;margin:0;padding:0 70px}
 #cabecera2 li{width:auto;margin:0 15px;display:inline}
 #cabecera3{text-align:left;padding:0;width:100%}
@@ -24,8 +24,8 @@ a,a:active,a:focus,a:visited{text-decoration:none;outline:0}
 #cabecera3 li{width:auto;margin:0 26px;display:inline-block;vertical-align:middle}
 ul#procesotx{width:100%;margin:0 0 20px}
 ul#procesotx li{margin:0;width:24.5%}
-ul#procesotx li li{font-family:Ubuntu,Arial,sans-serif;font-size:15px;font-style:normal;font-weight:400;color:#213773;width:auto;text-align:left;margin:0}
-ul#procesotx li li.num{font-family:Ubuntu,Arial,sans-serif;font-size:45px;font-style:normal;font-weight:700;color:#C1CBE0;margin-right:5px}
+ul#procesotx li li{font:15px UbuntuMedium,Arial,sans-serif;color:#213773;width:auto;text-align:left;margin:0}
+ul#procesotx li li.num{font:45px UbuntuBold,Arial,sans-serif;color:#C1CBE0;margin-right:5px}
 ul#procesotx li ul{margin:0;padding:0}
 #presentacion,#cuerpo,#contenedorcuerpo,#info{text-align:left!important}
 #contenedorinfo{margin-top:-30px;margin-bottom:20px;padding-top:90px;background:url(images/icon_ojo.png) no-repeat left top}
@@ -33,7 +33,7 @@ ul#procesotx li ul{margin:0;padding:0}
 #pie{width:100%;min-height:100px;display:block;background-color:#3C67BC;margin-top:50px}
 #impacto-grafico{margin:20px 0;padding:0;width:97%;height:250px}
 #cajaAvatar{margin-top:20px;margin-left:5px;height:430px;overflow:hidden}
-h3#apuntadas{background-color:#8498C1;color:#FFF;font-family:Ubuntu,Arial,sans-serif;font-size:19px;font-style:normal;font-weight:400;margin:0;padding:7px 15px}
+h3#apuntadas{background-color:#8498C1;color:#FFF;font:19px UbuntuMedium,Arial,sans-serif;margin:0;padding:7px 15px}
 .apuntateboton{width:70%;padding:10px 15px;margin-top:5px;text-align:center;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;-o-border-radius:3px;-ms-border-radius:3px;background-image:linear-gradient(top,#35549F 40%,#3C67BC 100%);background-image:-o-linear-gradient(top,#35549F 40%,#3C67BC 100%);background-image:-moz-linear-gradient(top,#35549F 40%,#3C67BC 100%);background-image:-webkit-linear-gradient(top,#35549F 40%,#3C67BC 100%);background-image:-ms-linear-gradient(top,#35549F 40%,#3C67BC 100%);background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0.4,#35549F),color-stop(1,#3C67BC))}
 .apuntateboton a,.apuntateboton a:link,.apuntateboton a:visited{color:#FFF;text-decoration:none}
 .apuntateboton:hover{position:relative;top:1px}
@@ -53,13 +53,13 @@ h3#apuntadas{background-color:#8498C1;color:#FFF;font-family:Ubuntu,Arial,sans-s
 .bordeBN{border-top:1px solid #F0F0F0;border-left:1px solid #FFF;border-right:1px solid silver;border-bottom:1px solid silver}
 .bordeazul{border:1px solid #35549F;height:440px}
 .borde-dash{border:3px dashed #3C67BC;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;-o-border-radius:5px;-ms-border-radius:5px}
-#baner{color:#8498C1;font-family:Ubuntu,Arial,sans-serif;font-size:40px;font-style:normal;font-weight:700;text-align:center;width:100%}
+#baner{color:#8498C1;font:40px UbuntuBold,Arial,sans-serif;text-align:center;width:100%}
 .ban45{font-size:45px}
 .centrar{text-align:center}
 .espacioV{margin-top:20px}
 #contenedorcuerpo2,#contenedorcuerpo3{background-color:#FFF;padding:0 20px 30px 30px;margin:20px 0;text-align:left}
 #contenedorcuerpo2 p,#contenedorcuerpo3 p{font-size:14px;letter-spacing:.01em;line-height:20px}
-h3{font-family:Ubuntu,Arial,sans-serif;font-size:22px;font-style:normal;font-weight:700;color:#213773;margin-bottom:17px}
+h3{font:22px UbuntuBold,Arial,sans-serif;color:#213773;margin-bottom:17px}
 #barrainf{padding:0 20%}
 #barrainf div{position:relative;margin:30px auto 0}
 #orla{background:url(images/banda.png) no-repeat center center;height:70px;padding:20px}
@@ -67,14 +67,14 @@ h2#baner{margin:0;font-size:45px}
 #listaexigencias{list-style:none;padding:30px 0 0;margin-bottom:30px}
 #contenedorcuerpo3 h3{margin:0;padding-top:7px}
 #contenedorcuerpo3 p{margin-top:0;margin-bottom:25px}
-#listaexigencias div.num{float:left;font-family:Ubuntu,Arial,sans-serif;font-size:50px;font-style:normal;font-weight:700;color:#C1CBE0;margin-right:10px}
+#listaexigencias div.num{float:left;font:50px UbuntuBold,Arial,sans-serif;color:#C1CBE0;margin-right:10px}
 .hr{height:1px;border-bottom:1px solid #EDEDED;margin-bottom:30px}
 #notapie{padding-left:40px;background:url(images/asterisco.png)no-repeat left top;color:#606060}
 #cajaAvatar{height:431px!important}
 .registro{width:100%;height:59px;overflow:hidden;border-bottom:1px solid #8498C1;padding:3px 5px;background-color:#EDF0F4;clear:both}
 .img_usuaria{width:52px;height:52px;margin:2px 5px 2px 0;float:left;overflow:hidden;border:1px solid #8498C1;background-color:#C1CBE0}
 .datos_usuaria p{font-size:12px;margin:0}
-.datos_usuaria h5{font-size:12px;margin:3px 0;font-family:Ubuntu,Arial,sans-serif;font-size:12px;font-style:normal;font-weight:400}
+.datos_usuaria h5{font-size:12px;margin:3px 0;font:12px UbuntuMedium,Arial,sans-serif}
 .orbit-wrapper{width:1px;height:1px;position:relative}
 .orbit{width:1px;height:1px;position:relative;overflow:hidden;margin-bottom:17px}
 .orbit.with-bullets{margin-bottom:40px}
