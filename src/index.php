@@ -90,7 +90,7 @@
 							if (usuarios.length == 4) {
 							//8; Simon Munoz Pinero; //graph.facebook.com/100002450191482/picture?type=large; 0
 								var img = '', enlace_oficina = '<a href="http://foros.toqueabankia.net/categories/oficina-'+usuarios[3]+'">Oficina '+usuarios[3]+'</a>';
-								if (usuarios[2].trim() != 'NULL') img='<img src="'+usuarios[2]+'" width="52" height="52" alt="Avatar '+usuarios[1]+'">';
+								if (usuarios[2].trim() != 'NULL') img='<img src="'+usuarios[2].replace('large','small')+'" width="52" height="52" alt="Avatar '+usuarios[1]+'">';
 								registro += '<div class="registro"><div class="img_usuaria">'+img+'</div><div class="datos_usuaria"><h5>'+usuarios[1]+'</h5><p>Ahora forma parte del grupo de acción de la '+enlace_oficina+'</p></div></div>';
 								$('#registros').append(registro);
 								registro = '';

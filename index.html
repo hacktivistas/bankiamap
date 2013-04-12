@@ -21,7 +21,7 @@
 		<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 
 		<link href="estilos.css" type="text/css" rel="stylesheet" media="screen, projection" />
-		<link href="fuentes.css" type="text/css" rel="stylesheet" />
+		<!-- <link href="fuentes.css" type="text/css" rel="stylesheet" /> -->
 		<!-- <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic' type='text/css' rel='stylesheet' /> -->
 		<!-- <link href='http://fonts.googleapis.com/css?family=Ubuntu' type='text/css' rel='stylesheet' /> -->
 
@@ -158,7 +158,7 @@
 							if (usuarios.length == 4) {
 							//8; Simon Munoz Pinero; //graph.facebook.com/100002450191482/picture?type=large; 0
 								var img = '', enlace_oficina = '<a href="http://foros.toqueabankia.net/categories/oficina-'+usuarios[3]+'">Oficina '+usuarios[3]+'</a>';
-								if (usuarios[2].trim() != 'NULL') img='<img src="'+usuarios[2]+'" width="52" height="52" alt="Avatar '+usuarios[1]+'">';
+								if (usuarios[2].trim() != 'NULL') img='<img src="'+usuarios[2].replace('large','small')+'" width="52" height="52" alt="Avatar '+usuarios[1]+'">';
 								registro += '<div class="registro"><div class="img_usuaria">'+img+'</div><div class="datos_usuaria"><h5>'+usuarios[1]+'</h5><p>Ahora forma parte del grupo de acción de la '+enlace_oficina+'</p></div></div>';
 								$('#registros').append(registro);
 								registro = '';

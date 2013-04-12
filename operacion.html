@@ -21,7 +21,7 @@
 		<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 
 		<link href="estilos.css" type="text/css" rel="stylesheet" media="screen, projection" />
-		<link href="fuentes.css" type="text/css" rel="stylesheet" />
+		<!-- <link href="fuentes.css" type="text/css" rel="stylesheet" /> -->
 		<!-- <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic' type='text/css' rel='stylesheet' /> -->
 		<!-- <link href='http://fonts.googleapis.com/css?family=Ubuntu' type='text/css' rel='stylesheet' /> -->
 
