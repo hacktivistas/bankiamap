@@ -1,9 +1,6 @@
 <?php include('cabecera.php'); ?>
 	<body>
 		<div id="principal">
-			<div id="cabecera">
-				<a href="index.html"><img src="images/TAB_logoWeb.png" width="427" height="109" alt="Demos un toque a Bankia" /></a>
-			</div>
 			<?php include('menu.php'); ?>
 			<div id="presentacion">
 				<div class="ocho cols">

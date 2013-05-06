@@ -1,9 +1,6 @@
 <?php include('cabecera.php'); ?>
 	<body>
 		<div id="principal">
-			<div id="cabecera">
-				<a href="index.html"><img src="images/TAB_logoWeb.png" /></a>
-			</div>
 
 			<?php include('menu.php'); ?>
 
